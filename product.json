@@ -1,0 +1,170 @@
+[
+    {
+        "id": "553558-611",
+        "name": "Nike Air Jordan 1 Low Gym Red ",
+        "brand": "NIKE",
+        "category": "Giày thể thao",
+        "badges": {
+            "discount": 75,
+            "tag": "Bán Chạy",
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1650000,
+            "original": 6900000,
+            "currency": "VND"
+        },
+        "images": [
+            "AIR+JORDAN+1+LOW (1).jpg",
+            "AIR+JORDAN+1+LOW (8).jpg",
+            "AIR+JORDAN+1+LOW (3).jpg",
+            "AIR+JORDAN+1+LOW (2).jpg",
+            "AIR+JORDAN+1+LOW (4).jpg",
+            "AIR+JORDAN+1+LOW (5).jpg",
+            "AIR+JORDAN+1+LOW (6).jpg"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 2568,
+            "totalSold": 30200
+        },
+        "promoCode": "S1N5K8V3QZ",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 150,
+        "reviews": [
+            {
+                "id": "rev_001",
+                "userName": "Ngọc bi",
+                "avatar": "/thumb.png",
+                "rating": 5,
+                "date": "2025-10-15",
+                "content": "Giày đẹp lắm, chất lượng tốt, đúng như mô tả. Giao hàng nhanh, đóng gói cẩn thận.",
+                "images": ["review1.jpg", "review3.jpg"],
+                "helpful": 45
+            },
+            {
+                "id": "rev_002",
+                "userName": "Trần Thị Bích",
+                "avatar": "https://i.pravatar.cc/150?img=5",
+                "rating": 5,
+                "date": "2024-10-10",
+                "content": "Form chuẩn, mang rất thoải mái. Màu sắc đẹp hơn hình. Giá sale quá hời luôn!",
+                "images": ["review4.jpg"],
+                "helpful": 32
+            },
+            {
+                "id": "rev_003",
+                "userName": "Lê Ngọc",
+                "avatar": "https://i.pravatar.cc/150?img=47",
+                "rating": 4,
+                "date": "2024-10-05",
+                "content": "Giày đẹp, chất lượng ok. Trừ 1 sao vì ship hơi lâu so với dự kiến.",
+                "images": [],
+                "helpful": 18
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    },
+    {
+        "id": "553558-116",
+        "name": "Nike Air Jordan 1 Low Midnight Navy Wolf Grey ",
+        "brand": "NIKE",
+        "category": "Giày thể thao",
+        "badges": {
+            "discount": 48,
+            "tag": "Bán Chạy",
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1490000,
+            "original": 2900000,
+            "currency": "VND"
+        },
+        "images": [
+            "AIR+JORDAN+1+LOW+(GS) (2).avif",
+            "AIR+JORDAN+1+LOW+(GS).avif",
+            "AIR+JORDAN+1+LOW+(GS) (4).avif",
+            "AIR+JORDAN+1+LOW+(GS) (3).avif",
+            "AIR+JORDAN+1+LOW+(GS) (5).avif",
+            "AIR+JORDAN+1+LOW+(GS) (6).avif",
+            "AIR+JORDAN+1+LOW+(GS) (7).avif"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 418,
+            "totalSold": 24204
+        },
+        "promoCode": "R8L2C5X9TN",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 541,
+        "reviews": [
+            {
+                "id": "rev_001",
+                "userName": "Ngọc bi",
+                "avatar": "nu1.jpg",
+                "rating": 5,
+                "date": "2025-10-15",
+                "content": "Giày đẹp lắm, chất lượng tốt, đúng như mô tả. Giao hàng nhanh, đóng gói cẩn thận.",
+                "images": ["review1.jpg", "review3.jpg"],
+                "helpful": 45
+            },
+            {
+                "id": "rev_002",
+                "userName": "Trần Thị Bích",
+                "avatar": "nu2.jpg",
+                "rating": 5,
+                "date": "2024-10-10",
+                "content": "Form chuẩn, mang rất thoải mái. Màu sắc đẹp hơn hình. Giá sale quá hời luôn!",
+                "images": ["review4.jpg"],
+                "helpful": 32
+            },
+            {
+                "id": "rev_003",
+                "userName": "Lê Ngọc",
+                "avatar": "nu3.jpg",
+                "rating": 4,
+                "date": "2024-10-05",
+                "content": "Giày đẹp, chất lượng ok. Trừ 1 sao vì ship hơi lâu so với dự kiến.",
+                "images": [],
+                "helpful": 18
+            },
+            {
+                "id": "rev_004",
+                "userName": "Hai Băng",
+                "avatar": "nu4.jpg",
+                "rating": 5,
+                "date": "2024-09-28",
+                "content": "Mua cho chồng, anh ấy rất thích. Đế giày êm, mang cả ngày không mỏi chân.",
+                "images": ["review6.jpg", "review5.jpg"],
+                "helpful": 56
+            },
+            {
+                "id": "rev_005",
+                "userName": "Hoàng Anh",
+                "avatar": "nam1.jpg",
+                "rating": 5,
+                "date": "2024-09-20",
+                "content": "Chất lượng xịn xò, giá tốt. Sẽ ủng hộ shop tiếp!",
+                "images": [],
+                "helpful": 23
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    }
+]
