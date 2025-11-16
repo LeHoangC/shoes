@@ -267,7 +267,7 @@ export default function AddressForm({ sizes, name }) {
 
         try {
             const response = await fetch(
-                'https://script.google.com/macros/s/AKfycby9k5SqVa7U8GRkoo4rLbCqbpmk89cOWXd-f0Yb5hnaLpm_zbanh75FB36Ebqkl-UboqA/exec',
+                'https://script.google.com/macros/s/AKfycbw7W1uSaItotVttnbJCC6eXVHCG3FIqNJoJkK2cCskITKzPnLeYS7xeaqUcspkpjric/exec',
                 {
                     method: 'POST',
                     mode: 'no-cors',
