@@ -35,34 +35,54 @@
         "stock": 150,
         "reviews": [
             {
-                "id": "rev_001",
-                "userName": "Ngọc bi",
-                "avatar": "/thumb.png",
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
                 "rating": 5,
-                "date": "2025-10-15",
-                "content": "Giày đẹp lắm, chất lượng tốt, đúng như mô tả. Giao hàng nhanh, đóng gói cẩn thận.",
-                "images": ["review1.jpg", "review3.jpg"],
-                "helpful": 45
-            },
-            {
-                "id": "rev_002",
-                "userName": "Trần Thị Bích",
-                "avatar": "https://i.pravatar.cc/150?img=5",
-                "rating": 5,
-                "date": "2024-10-10",
-                "content": "Form chuẩn, mang rất thoải mái. Màu sắc đẹp hơn hình. Giá sale quá hời luôn!",
-                "images": ["review4.jpg"],
-                "helpful": 32
-            },
-            {
-                "id": "rev_003",
-                "userName": "Lê Ngọc",
-                "avatar": "https://i.pravatar.cc/150?img=47",
-                "rating": 4,
-                "date": "2024-10-05",
-                "content": "Giày đẹp, chất lượng ok. Trừ 1 sao vì ship hơi lâu so với dự kiến.",
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
                 "images": [],
-                "helpful": 18
+                "helpful": 41
+            },
+            {
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
+                "rating": 5,
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
+            },
+            {
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
+                "rating": 4,
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "images": [],
+                "helpful": 25
+            },
+            {
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
+                "rating": 5,
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
+            },
+            {
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "images": [],
+                "helpful": 47
             }
         ],
         "features": [
@@ -73,6 +93,7 @@
         ],
         "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
     },
+
     {
         "id": "553558-116",
         "name": "Nike Air Jordan 1 Low Midnight Navy Wolf Grey ",
@@ -90,13 +111,12 @@
             "currency": "VND"
         },
         "images": [
-            "AIR+JORDAN+1+LOW+(GS) (2).avif",
-            "AIR+JORDAN+1+LOW+(GS).avif",
-            "AIR+JORDAN+1+LOW+(GS) (4).avif",
-            "AIR+JORDAN+1+LOW+(GS) (3).avif",
-            "AIR+JORDAN+1+LOW+(GS) (5).avif",
-            "AIR+JORDAN+1+LOW+(GS) (6).avif",
-            "AIR+JORDAN+1+LOW+(GS) (7).avif"
+            "main-image.jpg",
+            "top-view.jpg",
+            "side-view.jpg",
+            "detail-view.jpg",
+            "sole-view.jpg",
+            "box-view.jpg"
         ],
         "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
         "rating": {
@@ -109,54 +129,1464 @@
         "stock": 541,
         "reviews": [
             {
-                "id": "rev_001",
-                "userName": "Ngọc bi",
-                "avatar": "nu1.jpg",
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
                 "rating": 5,
-                "date": "2025-10-15",
-                "content": "Giày đẹp lắm, chất lượng tốt, đúng như mô tả. Giao hàng nhanh, đóng gói cẩn thận.",
-                "images": ["review1.jpg", "review3.jpg"],
-                "helpful": 45
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "images": [],
+                "helpful": 41
             },
             {
-                "id": "rev_002",
-                "userName": "Trần Thị Bích",
-                "avatar": "nu2.jpg",
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
                 "rating": 5,
-                "date": "2024-10-10",
-                "content": "Form chuẩn, mang rất thoải mái. Màu sắc đẹp hơn hình. Giá sale quá hời luôn!",
-                "images": ["review4.jpg"],
-                "helpful": 32
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
             },
             {
-                "id": "rev_003",
-                "userName": "Lê Ngọc",
-                "avatar": "nu3.jpg",
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
                 "rating": 4,
-                "date": "2024-10-05",
-                "content": "Giày đẹp, chất lượng ok. Trừ 1 sao vì ship hơi lâu so với dự kiến.",
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
                 "images": [],
-                "helpful": 18
+                "helpful": 25
             },
             {
-                "id": "rev_004",
-                "userName": "Hai Băng",
-                "avatar": "nu4.jpg",
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
                 "rating": 5,
-                "date": "2024-09-28",
-                "content": "Mua cho chồng, anh ấy rất thích. Đế giày êm, mang cả ngày không mỏi chân.",
-                "images": ["review6.jpg", "review5.jpg"],
-                "helpful": 56
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
             },
             {
-                "id": "rev_005",
-                "userName": "Hoàng Anh",
-                "avatar": "nam1.jpg",
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
                 "rating": 5,
-                "date": "2024-09-20",
-                "content": "Chất lượng xịn xò, giá tốt. Sẽ ủng hộ shop tiếp!",
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
                 "images": [],
-                "helpful": 23
+                "helpful": 47
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    },
+
+    {
+        "id": "DC0774-101",
+        "name": "Nike Air Jordan 1 Low Panda ",
+        "brand": "NIKE",
+        "category": "Giày thể thao",
+        "badges": {
+            "discount": 57,
+            "tag": "Bán Chạy",
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1490000,
+            "original": 3500000,
+            "currency": "VND"
+        },
+        "images": [
+            "main-image.jpg",
+            "top-view.jpg",
+            "side-view.jpg",
+            "detail-view.jpg",
+            "sole-view.jpg",
+            "box-view.jpg"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 528,
+            "totalSold": 17204
+        },
+        "promoCode": "H5J2M8L4PX",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 921,
+        "reviews": [
+            {
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
+                "rating": 5,
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "images": [],
+                "helpful": 41
+            },
+            {
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
+                "rating": 5,
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
+            },
+            {
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
+                "rating": 4,
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "images": [],
+                "helpful": 25
+            },
+            {
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
+                "rating": 5,
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
+            },
+            {
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "images": [],
+                "helpful": 47
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    },
+
+    {
+        "id": "CW2288-111",
+        "name": "Giày Nike Air Force 1 07 Triple White ",
+        "brand": "NIKE",
+        "category": "Giày thể thao",
+        "badges": {
+            "discount": 57,
+            "tag": "Bán Chạy",
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1250000,
+            "original": 2900000,
+            "currency": "VND"
+        },
+        "images": [
+            "main-image.jpg",
+            "top-view.jpg",
+            "side-view.jpg",
+            "detail-view.jpg",
+            "sole-view.jpg",
+            "box-view.jpg"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.8,
+            "totalReviews": 751,
+            "totalSold": 32911
+        },
+        "promoCode": "Z4P1S9K6HJ",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 2131,
+        "reviews": [
+            {
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
+                "rating": 5,
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "images": [],
+                "helpful": 41
+            },
+            {
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
+                "rating": 5,
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
+            },
+            {
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
+                "rating": 4,
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "images": [],
+                "helpful": 25
+            },
+            {
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
+                "rating": 5,
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
+            },
+            {
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "images": [],
+                "helpful": 47
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    },
+
+    {
+        "id": "AO9944-441",
+        "name": "Nike Air Jordan 1 Low UNC University Blue ",
+        "brand": "NIKE",
+        "category": "Giày thể thao",
+        "badges": {
+            "discount": 57,
+            "tag": "Bán Chạy",
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1900000,
+            "original": 3500000,
+            "currency": "VND"
+        },
+        "images": [
+            "main-image.jpg",
+            "top-view.jpg",
+            "side-view.jpg",
+            "detail-view.jpg",
+            "sole-view.jpg",
+            "box-view.jpg"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 351,
+            "totalSold": 14911
+        },
+        "promoCode": "C9V6R2T5ZD",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 551,
+        "reviews": [
+            {
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
+                "rating": 5,
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "images": [],
+                "helpful": 41
+            },
+            {
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
+                "rating": 5,
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
+            },
+            {
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
+                "rating": 4,
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "images": [],
+                "helpful": 25
+            },
+            {
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
+                "rating": 5,
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
+            },
+            {
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "images": [],
+                "helpful": 47
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    },
+
+    {
+        "id": "553558-118",
+        "name": "Giày Nike Air Jordan 1 Low White Univeristy Red",
+        "brand": "NIKE",
+        "category": "Giày thể thao",
+        "badges": {
+            "discount": 75,
+            "tag": "Bán Chạy",
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1490000,
+            "original": 5900000,
+            "currency": "VND"
+        },
+        "images": [
+            "main-image.jpg",
+            "top-view.jpg",
+            "side-view.jpg",
+            "detail-view.jpg",
+            "sole-view.jpg",
+            "box-view.jpg"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 751,
+            "totalSold": 12911
+        },
+        "promoCode": "D3W7A1M8QV",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 881,
+        "reviews": [
+            {
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
+                "rating": 5,
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "images": [],
+                "helpful": 41
+            },
+            {
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
+                "rating": 5,
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
+            },
+            {
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
+                "rating": 4,
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "images": [],
+                "helpful": 25
+            },
+            {
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
+                "rating": 5,
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
+            },
+            {
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "images": [],
+                "helpful": 47
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    },
+
+    {
+        "id": "FV3622-141",
+        "name": "Nike Air Jordan 1 Low White Industrial Blue Siren Red",
+        "brand": "NIKE",
+        "category": "Giày thể thao",
+        "badges": {
+            "discount": 70,
+            "tag": "Bán Chạy",
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1650000,
+            "original": 5500000,
+            "currency": "VND"
+        },
+        "images": [
+            "main-image.jpg",
+            "top-view.jpg",
+            "side-view.jpg",
+            "detail-view.jpg",
+            "sole-view.jpg",
+            "box-view.jpg"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 251,
+            "totalSold": 5911
+        },
+        "promoCode": "F2Q8G7N1WB",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 881,
+        "reviews": [
+            {
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
+                "rating": 5,
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "images": [],
+                "helpful": 41
+            },
+            {
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
+                "rating": 5,
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
+            },
+            {
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
+                "rating": 4,
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "images": [],
+                "helpful": 25
+            },
+            {
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
+                "rating": 5,
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
+            },
+            {
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "images": [],
+                "helpful": 47
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    },
+
+    {
+        "id": "DC0774-105",
+        "name": "Nike Air Jordan 1 Low White Wolf Grey",
+        "brand": "NIKE",
+        "category": "Giày thể thao",
+        "badges": {
+            "discount": 55,
+            "tag": "Bán Chạy",
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1490000,
+            "original": 2200000,
+            "currency": "VND"
+        },
+        "images": [
+            "main-image.jpg",
+            "top-view.jpg",
+            "side-view.jpg",
+            "detail-view.jpg",
+            "sole-view.jpg",
+            "box-view.jpg"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 612,
+            "totalSold": 14611
+        },
+        "promoCode": "A7N3K9T2QW",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 1281,
+        "reviews": [
+            {
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
+                "rating": 5,
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "images": [],
+                "helpful": 41
+            },
+            {
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
+                "rating": 5,
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
+            },
+            {
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
+                "rating": 4,
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "images": [],
+                "helpful": 25
+            },
+            {
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
+                "rating": 5,
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
+            },
+            {
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "images": [],
+                "helpful": 47
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    },
+
+    {
+        "id": "FZ2161-002",
+        "name": "Nike Vapor Pro 3 Black",
+        "brand": "NIKE",
+        "category": "Giày Pickleball",
+        "badges": {
+            "discount": 45,
+            "tag": "Bán Chạy",
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1690000,
+            "original": 3100000,
+            "currency": "VND"
+        },
+        "images": [
+            "main-image.jpg",
+            "top-view.jpg",
+            "side-view.jpg",
+            "detail-view.jpg",
+            "sole-view.jpg",
+            "box-view.jpg"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 812,
+            "totalSold": 8614
+        },
+        "promoCode": "K5L1Z3P9HQ",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 781,
+        "reviews": [
+            {
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
+                "rating": 5,
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "images": [],
+                "helpful": 41
+            },
+            {
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
+                "rating": 5,
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
+            },
+            {
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
+                "rating": 4,
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "images": [],
+                "helpful": 25
+            },
+            {
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
+                "rating": 5,
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
+            },
+            {
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "images": [],
+                "helpful": 47
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    },
+
+    {
+        "id": "FZ2161-002",
+        "name": "Nike Vapor Pro 3 Black",
+        "brand": "NIKE",
+        "category": "Giày Pickleball",
+        "badges": {
+            "discount": 45,
+            "tag": "Bán Chạy",
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1690000,
+            "original": 3100000,
+            "currency": "VND"
+        },
+        "images": [
+            "main-image.jpg",
+            "top-view.jpg",
+            "side-view.jpg",
+            "detail-view.jpg",
+            "sole-view.jpg",
+            "box-view.jpg"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 812,
+            "totalSold": 8614
+        },
+        "promoCode": "K5L1Z3P9HQ",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 781,
+        "reviews": [
+            {
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
+                "rating": 5,
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "images": [],
+                "helpful": 41
+            },
+            {
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
+                "rating": 5,
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
+            },
+            {
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
+                "rating": 4,
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "images": [],
+                "helpful": 25
+            },
+            {
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
+                "rating": 5,
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
+            },
+            {
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "images": [],
+                "helpful": 47
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    },
+
+    {
+        "id": "FZ2158-100",
+        "name": "Giày Nike Vapor Pro 3 White",
+        "brand": "NIKE",
+        "category": "Giày Pickleball",
+        "badges": {
+            "discount": 56,
+            "tag": "Bán Chạy",
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1690000,
+            "original": 3900000,
+            "currency": "VND"
+        },
+        "images": [
+            "main-image.jpg",
+            "top-view.jpg",
+            "side-view.jpg",
+            "detail-view.jpg",
+            "sole-view.jpg",
+            "box-view.jpg"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 712,
+            "totalSold": 11614
+        },
+        "promoCode": "G2N9T5C8VB",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 555,
+        "reviews": [
+            {
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
+                "rating": 5,
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "images": [],
+                "helpful": 41
+            },
+            {
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
+                "rating": 5,
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
+            },
+            {
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
+                "rating": 4,
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "images": [],
+                "helpful": 25
+            },
+            {
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
+                "rating": 5,
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
+            },
+            {
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "images": [],
+                "helpful": 47
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    },
+
+    {
+        "id": "FZ2158-100",
+        "name": "Giày Nike Vapor Pro 3 White",
+        "brand": "NIKE",
+        "category": "Giày Pickleball",
+        "badges": {
+            "discount": 56,
+            "tag": "Bán Chạy",
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1690000,
+            "original": 3900000,
+            "currency": "VND"
+        },
+        "images": [
+            "main-image.jpg",
+            "top-view.jpg",
+            "side-view.jpg",
+            "detail-view.jpg",
+            "sole-view.jpg",
+            "box-view.jpg"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 712,
+            "totalSold": 11614
+        },
+        "promoCode": "G2N9T5C8VB",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 555,
+        "reviews": [
+            {
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
+                "rating": 5,
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "images": [],
+                "helpful": 41
+            },
+            {
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
+                "rating": 5,
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
+            },
+            {
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
+                "rating": 4,
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "images": [],
+                "helpful": 25
+            },
+            {
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
+                "rating": 5,
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
+            },
+            {
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "images": [],
+                "helpful": 47
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    },
+
+    {
+        "id": "FZ2158-500",
+        "name": "Nike Court Air Zoom Vapor Pro 3 HC Amethyst Tint",
+        "brand": "NIKE",
+        "category": "Giày Pickleball",
+        "badges": {
+            "discount": 54,
+            "tag": "Bán Chạy",
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1690000,
+            "original": 3750000,
+            "currency": "VND"
+        },
+        "images": [
+            "main-image.jpg",
+            "top-view.jpg",
+            "side-view.jpg",
+            "detail-view.jpg",
+            "sole-view.jpg",
+            "box-view.jpg"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 412,
+            "totalSold": 9853
+        },
+        "promoCode": "Q8W3R1H6XP",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 823,
+        "reviews": [
+            {
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
+                "rating": 5,
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "images": [],
+                "helpful": 41
+            },
+            {
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
+                "rating": 5,
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
+            },
+            {
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
+                "rating": 4,
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "images": [],
+                "helpful": 25
+            },
+            {
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
+                "rating": 5,
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
+            },
+            {
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "images": [],
+                "helpful": 47
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    },
+
+    {
+        "id": "HF7829-300",
+        "name": " Nike Court Air Zoom Vapor Pro 3 Premium HC High Voltage",
+        "brand": "NIKE",
+        "category": "Giày Pickleball",
+        "badges": {
+            "discount": 51,
+            "tag": "Bán Chạy",
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1690000,
+            "original": 3500000,
+            "currency": "VND"
+        },
+        "images": [
+            "main-image.jpg",
+            "top-view.jpg",
+            "side-view.jpg",
+            "detail-view.jpg",
+            "sole-view.jpg",
+            "box-view.jpg"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 512,
+            "totalSold": 14853
+        },
+        "promoCode": "L7S4M2J9ND",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 423,
+        "reviews": [
+            {
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
+                "rating": 5,
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "images": [],
+                "helpful": 41
+            },
+            {
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
+                "rating": 5,
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
+            },
+            {
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
+                "rating": 4,
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "images": [],
+                "helpful": 25
+            },
+            {
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
+                "rating": 5,
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
+            },
+            {
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "images": [],
+                "helpful": 47
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    },
+
+    {
+        "id": "FZ2161-400",
+        "name": " Nike Zoom Vapor Pro 3 Ashen Slate",
+        "brand": "NIKE",
+        "category": "Giày Pickleball",
+        "badges": {
+            "discount": 51,
+            "tag": "Bán Chạy",
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1690000,
+            "original": 3500000,
+            "currency": "VND"
+        },
+        "images": [
+            "main-image.jpg",
+            "top-view.jpg",
+            "side-view.jpg",
+            "detail-view.jpg",
+            "sole-view.jpg",
+            "box-view.jpg"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 1012,
+            "totalSold": 24853
+        },
+        "promoCode": "V3Q8K1Z6PR",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 923,
+        "reviews": [
+            {
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
+                "rating": 5,
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "images": [],
+                "helpful": 41
+            },
+            {
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
+                "rating": 5,
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
+            },
+            {
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
+                "rating": 4,
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "images": [],
+                "helpful": 25
+            },
+            {
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
+                "rating": 5,
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
+            },
+            {
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "images": [],
+                "helpful": 47
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    },
+
+    {
+        "id": "HJ6641-300",
+        "name": " Nike Court Vapor Pro 3 Cactus Green",
+        "brand": "NIKE",
+        "category": "Giày Pickleball",
+        "badges": {
+            "discount": 54,
+            "tag": "Bán Chạy",
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1690000,
+            "original": 3750000,
+            "currency": "VND"
+        },
+        "images": [
+            "main-image.jpg",
+            "top-view.jpg",
+            "side-view.jpg",
+            "detail-view.jpg",
+            "sole-view.jpg",
+            "box-view.jpg"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 2012,
+            "totalSold": 31211
+        },
+        "promoCode": "B9H2T5W7GA",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 2347,
+        "reviews": [
+            {
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
+                "rating": 5,
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "images": [],
+                "helpful": 41
+            },
+            {
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
+                "rating": 5,
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
+            },
+            {
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
+                "rating": 4,
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "images": [],
+                "helpful": 25
+            },
+            {
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
+                "rating": 5,
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
+            },
+            {
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "images": [],
+                "helpful": 47
+            }
+        ],
+        "features": [
+            "Thiết kế cổ điển năm 1985",
+            "Chất liệu da cao cấp",
+            "Đế giày Air-Sole êm ái",
+            "Phù hợp nhiều phong cách"
+        ],
+        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
+    },
+
+    {
+        "id": " FV5554-500",
+        "name": " Pickleball Vapor 12 Amethyst Tint",
+        "brand": "NIKE",
+        "category": "Giày Pickleball",
+        "badges": {
+            "discount": 57,
+            "isBestseller": true,
+            "isFlashSale": true
+        },
+        "price": {
+            "current": 1690000,
+            "original": 4090000,
+            "currency": "VND"
+        },
+        "images": [
+            "main-image.jpg",
+            "top-view.jpg",
+            "side-view.jpg",
+            "detail-view.jpg",
+            "sole-view.jpg",
+            "box-view.jpg"
+        ],
+        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 9012,
+            "totalSold": 17252
+        },
+        "promoCode": "M6P1X8N3LQ",
+        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
+        "stock": 2347,
+        "reviews": [
+            {
+                "id": "rev_006",
+                "userName": "Phạm Minh Châu",
+                "avatar": "/avt1.jpg",
+                "rating": 5,
+                "date": "20 giờ trước",
+                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "images": [],
+                "helpful": 41
+            },
+            {
+                "id": "rev_007",
+                "userName": "Nguyễn Văn Hải",
+                "avatar": "/avt2.jpg",
+                "rating": 5,
+                "date": "2025-09-10",
+                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "images": ["review7.jpg"],
+                "helpful": 38
+            },
+            {
+                "id": "rev_008",
+                "userName": "Vũ Thị Lan Anh",
+                "avatar": "/avt3.jpg",
+                "rating": 4,
+                "date": "2025-09-05",
+                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "images": [],
+                "helpful": 25
+            },
+            {
+                "id": "rev_009",
+                "userName": "Đỗ Quốc Bảo",
+                "avatar": "/avt4.jpg",
+                "rating": 5,
+                "date": "2025-08-30",
+                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "images": ["review8.jpg", "review9.jpg"],
+                "helpful": 52
+            },
+            {
+                "id": "rev_010",
+                "userName": "Trương Ngọc Huyền",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-08-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "images": [],
+                "helpful": 47
             }
         ],
         "features": [

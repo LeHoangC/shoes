@@ -7,6 +7,7 @@ import { useMemo } from 'react'
 import { formatVND } from '../helper'
 import AddressForm from '../components/Form'
 import Modal from '../components/Modal'
+import { Eye } from 'lucide-react'
 
 export default function ProductDetail() {
     const [currentImage, setCurrentImage] = useState(0)
@@ -45,7 +46,7 @@ export default function ProductDetail() {
             {/* <AddressForm /> */}
 
             <Modal isOpen={showForm} onClose={() => setShowForm(false)}>
-                <AddressForm sizes={product.sizes} />
+                <AddressForm sizes={product.sizes} name={product.name} />
             </Modal>
             <div className="hidden md:block max-w-6xl mx-auto px-4 py-8">
                 <div className="grid md:grid-cols-2 gap-8">
@@ -124,24 +125,6 @@ export default function ProductDetail() {
                         </div>
 
                         <div className="flex gap-4 mb-4">
-                            <div className="flex items-center border-2 border-gray-300 rounded-lg">
-                                <button
-                                    onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                                    className="p-3 hover:bg-gray-100"
-                                >
-                                    <Minus className="w-5 h-5" />
-                                </button>
-                                <input
-                                    type="number"
-                                    value={quantity}
-                                    onChange={(e) => setQuantity(Math.max(1, parseInt(e.target.value) || 1))}
-                                    className="w-16 text-center font-bold text-lg border-x-2 border-gray-300"
-                                />
-                                <button onClick={() => setQuantity(quantity + 1)} className="p-3 hover:bg-gray-100">
-                                    <Plus className="w-5 h-5" />
-                                </button>
-                            </div>
-
                             <button
                                 onClick={() => setShowForm(true)}
                                 className="flex-1 bg-gray-800 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-lg transition-colors"
@@ -250,28 +233,143 @@ export default function ProductDetail() {
                     <span className="text-gray-600">{product.rating.totalSold} Đã bán</span>
                 </div>
 
-                <div className="m-4 p-3 bg-red-50 border-2 border-red-500 rounded-lg">
+                <div className="mt-4 p-3 bg-red-50 border-2 border-red-500 rounded-lg">
                     <p className="text-red-600 font-bold text-lg mb-1">GIẢM GIÁ LÊN ĐẾN {product.badges.discount}%</p>
                     <p className="text-red-600 font-bold text-sm">NHẬP MÃ "NIKE12"</p>
+                </div>
+
+                <div className="p-4 flex space-x-1">
+                    <Eye />
+                    <p>
+                        Đang có{' '}
+                        <span className="inline-block animate-bounce-scale text-red-600 font-bold mx-1">145</span> người
+                        xem sản phẩm này
+                        <style jsx>{`
+                            @keyframes bounce-scale {
+                                0% {
+                                    transform: translateY(0) scale(1);
+                                }
+                                50% {
+                                    transform: translateY(-5px) scale(1.15);
+                                }
+                            }
+
+                            .animate-bounce-scale {
+                                animation: bounce-scale 1s ease-in-out infinite;
+                            }
+                        `}</style>
+                    </p>
+                </div>
+                <div className="space-y-3 sm:hidden">
+                    {/* Card 1: Nhận hàng tại store */}
+                    <div className="border-2 border-black rounded-3xl p-4 bg-gray-50">
+                        <div className="flex items-start gap-3 mb-3">
+                            <svg
+                                className="w-8 h-8 text-purple-600 flex-shrink-0"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+                                <path d="M20 6h-3V4c0-1.1-.9-2-2-2H9c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zM9 4h6v2H9V4zm11 15H4V8h16v11z" />
+                            </svg>
+                            <div>
+                                <h3 className="font-bold text-sm uppercase">NHẬN HÀNG TẠI STORE</h3>
+                                <p className="text-xs text-gray-600">NHẬN NGAY TRONG NGÀY</p>
+                            </div>
+                        </div>
+
+                        <div className="flex items-start gap-3">
+                            <svg
+                                className="w-8 h-8 text-purple-600 flex-shrink-0"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+                                <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z" />
+                            </svg>
+                            <div className="flex-1">
+                                <h3 className="font-bold text-sm uppercase mb-1">GIAO HÀNG CHUYỂN PHÁT NHANH</h3>
+                                <div className="flex items-start justify-between gap-2">
+                                    <p className="text-xs text-gray-700 leading-relaxed">
+                                        Chuyển phát nhanh của chúng tôi sẽ giao hàng đến địa chỉ của bạn
+                                    </p>
+                                    <div className="text-right flex-shrink-0">
+                                        <p className="text-xs font-semibold">1-3 Ngày</p>
+                                        <p className="text-xs font-bold">FREESHIP</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Card 2: Bảo hành */}
+                    <div className="border-2 border-black rounded-3xl p-4 bg-gray-50">
+                        <div className="flex items-start gap-3 mb-3">
+                            <svg
+                                className="w-8 h-8 text-purple-600 flex-shrink-0"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                                />
+                            </svg>
+                            <div>
+                                <h3 className="font-bold text-sm uppercase">BẢO HÀNH 12 THÁNG</h3>
+                            </div>
+                        </div>
+
+                        <div className="flex items-center gap-3">
+                            <svg
+                                className="w-8 h-8 text-purple-600 flex-shrink-0"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                                />
+                            </svg>
+                            <div>
+                                <h3 className="font-bold text-sm uppercase">ĐỔI TRẢ MIỄN PHÍ TRONG 30 NGÀY</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="p-4">
+                    <p className="text-center text-xl font-medium mb-1">Giao hàng và trả lại hàng miễn phí</p>
+                    <p>*Đơn hàng từ 1.500.000₫ trở lên của bạn sẽ được giao hàng tiêu chuẩn miễn phí.</p>
+                    <br />
+                    <p className="font-bold">* Giao hàng tiêu chuẩn 4-5 ngày làm việc</p>
+                    <p className="font-bold">* Đơn hàng được xử lý và giao từ Thứ Hai đến Thứ Sáu (trừ ngày lễ)</p>
+                </div>
+
+                <div className="">
+                    <img src="/size.jpg" alt="" className="" />
                 </div>
 
                 <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg p-4">
                     <div className="flex gap-2 mb-3">
                         <div className="flex items-center border-2 border-gray-300 rounded-lg">
                             <button
+                                type="button"
                                 onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                                className="p-2 hover:bg-gray-100"
+                                className="p-3 hover:bg-gray-100"
                             >
-                                <Minus className="w-4 h-4" />
+                                <Minus className="w-4 h-4 sm:w-5 sm:h-5" />
                             </button>
-                            <input
-                                type="number"
-                                value={quantity}
-                                onChange={(e) => setQuantity(Math.max(1, parseInt(e.target.value) || 1))}
-                                className="w-12 text-center font-bold border-x-2 border-gray-300"
-                            />
-                            <button onClick={() => setQuantity(quantity + 1)} className="p-2 hover:bg-gray-100">
-                                <Plus className="w-4 h-4" />
+                            <p className="px-2 text-xl">{quantity}</p>
+                            <button
+                                type="button"
+                                onClick={() => setQuantity(quantity + 1)}
+                                className="p-3 hover:bg-gray-100"
+                            >
+                                <Plus className="w-4 h-4 sm:w-5 sm:h-5" />
                             </button>
                         </div>
 
@@ -290,8 +388,6 @@ export default function ProductDetail() {
                         ĐẶT NGAY
                     </button>
                 </div>
-
-                <div className="h-32"></div>
             </div>
 
             <style jsx>{`

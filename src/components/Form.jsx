@@ -1,191 +1,9 @@
 import React, { useState, useMemo } from 'react'
 import { Search, MapPin, ChevronDown, User, Phone, Home } from 'lucide-react'
 import vietnamData from '../../address.json'
+import { Minus } from 'lucide-react'
+import { Plus } from 'lucide-react'
 
-// Dữ liệu mẫu theo cấu trúc của bạn
-// const vietnamData = {
-//     provinces: {
-//         '01': {
-//             name: 'Thành phố Hà Nội',
-//             children: ['001', '002', '003', '004', '005'],
-//         },
-//         79: {
-//             name: 'Thành phố Hồ Chí Minh',
-//             children: ['760', '761', '769', '770'],
-//         },
-//         48: {
-//             name: 'Thành phố Đà Nẵng',
-//             children: ['490', '491', '492'],
-//         },
-//         10: {
-//             name: 'Tỉnh Lào Cai',
-//             children: ['080', '082', '083'],
-//         },
-//         11: {
-//             name: 'Tỉnh Điện Biên',
-//             children: ['100', '101', '102'],
-//         },
-//     },
-//     districts: {
-//         '001': {
-//             name: 'Quận Ba Đình',
-//             parent: '01',
-//             children: ['00001', '00002', '00003', '00004', '00005'],
-//         },
-//         '002': {
-//             name: 'Quận Hoàn Kiếm',
-//             parent: '01',
-//             children: ['00006', '00007', '00008', '00009', '00010'],
-//         },
-//         '003': {
-//             name: 'Quận Cầu Giấy',
-//             parent: '01',
-//             children: ['00011', '00012', '00013', '00014'],
-//         },
-//         '004': {
-//             name: 'Quận Đống Đa',
-//             parent: '01',
-//             children: ['00015', '00016', '00017'],
-//         },
-//         '005': {
-//             name: 'Quận Hai Bà Trưng',
-//             parent: '01',
-//             children: ['00018', '00019', '00020'],
-//         },
-//         760: {
-//             name: 'Quận 1',
-//             parent: '79',
-//             children: ['26734', '26735', '26736', '26737', '26738'],
-//         },
-//         761: {
-//             name: 'Quận 3',
-//             parent: '79',
-//             children: ['26740', '26741', '26742', '26743'],
-//         },
-//         769: {
-//             name: 'Thành phố Thủ Đức',
-//             parent: '79',
-//             children: ['27085', '27086', '27087', '27088'],
-//         },
-//         770: {
-//             name: 'Quận 5',
-//             parent: '79',
-//             children: ['27089', '27090', '27091'],
-//         },
-//         490: {
-//             name: 'Quận Hải Châu',
-//             parent: '48',
-//             children: ['20194', '20195', '20196'],
-//         },
-//         491: {
-//             name: 'Quận Sơn Trà',
-//             parent: '48',
-//             children: ['20197', '20198', '20199'],
-//         },
-//         492: {
-//             name: 'Quận Ngũ Hành Sơn',
-//             parent: '48',
-//             children: ['20200', '20201', '20202'],
-//         },
-//         '080': {
-//             name: 'Thành phố Lào Cai',
-//             parent: '10',
-//             children: ['02500', '02501', '02502'],
-//         },
-//         '082': {
-//             name: 'Huyện Bát Xát',
-//             parent: '10',
-//             children: ['02503', '02504', '02505'],
-//         },
-//         '083': {
-//             name: 'Huyện Sa Pa',
-//             parent: '10',
-//             children: ['02506', '02507', '02508'],
-//         },
-//         100: {
-//             name: 'Huyện Điện Biên',
-//             parent: '11',
-//             children: ['03319', '03322', '03323'],
-//         },
-//         101: {
-//             name: 'Thành phố Điện Biên Phủ',
-//             parent: '11',
-//             children: ['03324', '03325', '03326'],
-//         },
-//         102: {
-//             name: 'Huyện Mường Lay',
-//             parent: '11',
-//             children: ['03327', '03328', '03329'],
-//         },
-//     },
-//     wards: {
-//         '00001': { name: 'Phường Phúc Xá', parent: '001' },
-//         '00002': { name: 'Phường Trúc Bạch', parent: '001' },
-//         '00003': { name: 'Phường Vĩnh Phúc', parent: '001' },
-//         '00004': { name: 'Phường Cống Vị', parent: '001' },
-//         '00005': { name: 'Phường Liễu Giai', parent: '001' },
-//         '00006': { name: 'Phường Phan Chu Trinh', parent: '002' },
-//         '00007': { name: 'Phường Tràng Tiền', parent: '002' },
-//         '00008': { name: 'Phường Hàng Bài', parent: '002' },
-//         '00009': { name: 'Phường Hàng Đào', parent: '002' },
-//         '00010': { name: 'Phường Hàng Bồ', parent: '002' },
-//         '00011': { name: 'Phường Nghĩa Đô', parent: '003' },
-//         '00012': { name: 'Phường Nghĩa Tân', parent: '003' },
-//         '00013': { name: 'Phường Dịch Vọng', parent: '003' },
-//         '00014': { name: 'Phường Quan Hoa', parent: '003' },
-//         '00015': { name: 'Phường Cát Linh', parent: '004' },
-//         '00016': { name: 'Phường Văn Miếu', parent: '004' },
-//         '00017': { name: 'Phường Quốc Tử Giám', parent: '004' },
-//         '00018': { name: 'Phường Nguyễn Du', parent: '005' },
-//         '00019': { name: 'Phường Bùi Thị Xuân', parent: '005' },
-//         '00020': { name: 'Phường Lê Đại Hành', parent: '005' },
-//         26734: { name: 'Phường Tân Định', parent: '760' },
-//         26735: { name: 'Phường Đa Kao', parent: '760' },
-//         26736: { name: 'Phường Bến Nghé', parent: '760' },
-//         26737: { name: 'Phường Bến Thành', parent: '760' },
-//         26738: { name: 'Phường Nguyễn Thái Bình', parent: '760' },
-//         26740: { name: 'Phường Võ Thị Sáu', parent: '761' },
-//         26741: { name: 'Phường 1', parent: '761' },
-//         26742: { name: 'Phường 2', parent: '761' },
-//         26743: { name: 'Phường 3', parent: '761' },
-//         27085: { name: 'Phường Linh Xuân', parent: '769' },
-//         27086: { name: 'Phường Bình Chiểu', parent: '769' },
-//         27087: { name: 'Phường Linh Trung', parent: '769' },
-//         27088: { name: 'Phường Tam Bình', parent: '769' },
-//         27089: { name: 'Phường 1', parent: '770' },
-//         27090: { name: 'Phường 2', parent: '770' },
-//         27091: { name: 'Phường 3', parent: '770' },
-//         20194: { name: 'Phường Thạch Thang', parent: '490' },
-//         20195: { name: 'Phường Hải Châu 1', parent: '490' },
-//         20196: { name: 'Phường Hải Châu 2', parent: '490' },
-//         20197: { name: 'Phường Thọ Quang', parent: '491' },
-//         20198: { name: 'Phường Nại Hiên Đông', parent: '491' },
-//         20199: { name: 'Phường Mân Thái', parent: '491' },
-//         20200: { name: 'Phường Mỹ An', parent: '492' },
-//         20201: { name: 'Phường Khuê Mỹ', parent: '492' },
-//         20202: { name: 'Phường Hòa Quý', parent: '492' },
-//         '02500': { name: 'Phường Kim Tân', parent: '080' },
-//         '02501': { name: 'Phường Lào Cai', parent: '080' },
-//         '02502': { name: 'Phường Cốc Lếu', parent: '080' },
-//         '02503': { name: 'Xã A Lù', parent: '082' },
-//         '02504': { name: 'Xã Trịnh Tường', parent: '082' },
-//         '02505': { name: 'Xã Y Tý', parent: '082' },
-//         '02506': { name: 'Thị trấn Sa Pa', parent: '083' },
-//         '02507': { name: 'Xã Tả Van', parent: '083' },
-//         '02508': { name: 'Xã Lao Chải', parent: '083' },
-//         '03319': { name: 'Xã Mường Pồn', parent: '100' },
-//         '03322': { name: 'Xã Pá Khoang', parent: '100' },
-//         '03323': { name: 'Xã Nậm Pì', parent: '100' },
-//         '03324': { name: 'Phường Mường Thanh', parent: '101' },
-//         '03325': { name: 'Phường Him Lam', parent: '101' },
-//         '03326': { name: 'Phường Noong Bua', parent: '101' },
-//         '03327': { name: 'Thị trấn Mường Lay', parent: '102' },
-//         '03328': { name: 'Xã Lay Nưa', parent: '102' },
-//         '03329': { name: 'Xã Nậm Hàng', parent: '102' },
-//     },
-// }
-
-// Hàm loại bỏ dấu tiếng Việt
 const removeVietnameseTones = (str) => {
     if (!str) return ''
     str = str.toLowerCase()
@@ -214,7 +32,7 @@ const SearchableSelect = ({ label, options, value, onChange, placeholder, disabl
 
     return (
         <div className="relative">
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium text-gray-700 mb-1.5">
                 {label} <span className="text-red-500">*</span>
             </label>
             <div className="relative">
@@ -222,16 +40,20 @@ const SearchableSelect = ({ label, options, value, onChange, placeholder, disabl
                     type="button"
                     onClick={() => !disabled && setIsOpen(!isOpen)}
                     disabled={disabled}
-                    className={`w-full px-4 py-2.5 text-left bg-white border rounded-lg shadow-sm transition-all
-            ${disabled ? 'bg-gray-50 cursor-not-allowed text-gray-400' : 'hover:border-blue-400 cursor-pointer'}
-            ${isOpen ? 'border-blue-500 ring-2 ring-blue-200' : 'border-gray-300'}
-          `}
+                    className={`w-full px-3 sm:px-4 py-2 sm:py-2.5 text-left bg-white border rounded-lg shadow-sm transition-all text-sm sm:text-base
+                        ${
+                            disabled
+                                ? 'bg-gray-50 cursor-not-allowed text-gray-400'
+                                : 'hover:border-blue-400 cursor-pointer active:scale-[0.98]'
+                        }
+                        ${isOpen ? 'border-blue-500 ring-2 ring-blue-200' : 'border-gray-300'}
+                    `}
                 >
                     <span className={selectedOption ? 'text-gray-900' : 'text-gray-400'}>
                         {selectedOption ? selectedOption.name : placeholder}
                     </span>
                     <ChevronDown
-                        className={`absolute right-3 top-3 w-5 h-5 text-gray-400 transition-transform ${
+                        className={`absolute right-2.5 sm:right-3 top-2.5 sm:top-3 w-4 h-4 sm:w-5 sm:h-5 text-gray-400 transition-transform ${
                             isOpen ? 'rotate-180' : ''
                         }`}
                     />
@@ -243,20 +65,20 @@ const SearchableSelect = ({ label, options, value, onChange, placeholder, disabl
                         <div className="absolute z-20 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg max-h-80 overflow-hidden">
                             <div className="p-2 border-b border-gray-200">
                                 <div className="relative">
-                                    <Search className="absolute left-3 top-2.5 w-4 h-4 text-gray-400" />
+                                    <Search className="absolute left-2.5 top-2.5 w-4 h-4 text-gray-400" />
                                     <input
                                         type="text"
                                         value={search}
                                         onChange={(e) => setSearch(e.target.value)}
                                         placeholder="Tìm kiếm..."
-                                        className="w-full pl-9 pr-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                        className="w-full pl-8 pr-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                                         onClick={(e) => e.stopPropagation()}
                                     />
                                 </div>
                             </div>
                             <div className="overflow-y-auto max-h-60">
                                 {filteredOptions.length === 0 ? (
-                                    <div className="px-4 py-3 text-sm text-gray-500 text-center">
+                                    <div className="px-3 py-3 text-xs sm:text-sm text-gray-500 text-center">
                                         Không tìm thấy kết quả
                                     </div>
                                 ) : (
@@ -268,9 +90,13 @@ const SearchableSelect = ({ label, options, value, onChange, placeholder, disabl
                                                 setIsOpen(false)
                                                 setSearch('')
                                             }}
-                                            className={`w-full px-4 py-2.5 text-left hover:bg-blue-50 transition-colors
-                        ${value === option.id ? 'bg-blue-100 text-blue-700' : 'text-gray-700'}
-                      `}
+                                            className={`w-full px-3 sm:px-4 py-2 sm:py-2.5 text-left text-sm hover:bg-blue-50 transition-colors
+                                                ${
+                                                    value === option.id
+                                                        ? 'bg-blue-100 text-blue-700 font-medium'
+                                                        : 'text-gray-700'
+                                                }
+                                            `}
                                         >
                                             {option.name}
                                         </button>
@@ -286,27 +112,32 @@ const SearchableSelect = ({ label, options, value, onChange, placeholder, disabl
 }
 
 // Component Input thông thường
-const TextInput = ({ label, icon: Icon, value, onChange, placeholder, required, type = 'text' }) => {
+const TextInput = ({ label, icon: Icon, value, onChange, placeholder, required, type = 'text', error }) => {
     return (
         <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium text-gray-700 mb-1.5">
                 {label} {required && <span className="text-red-500">*</span>}
             </label>
             <div className="relative">
-                <Icon className="absolute left-3 top-3 w-5 h-5 text-gray-400" />
+                <Icon className="absolute left-2.5 sm:left-3 top-2.5 w-4 h-4 sm:w-5 sm:h-5 text-gray-400" />
                 <input
                     type={type}
                     value={value}
                     onChange={(e) => onChange(e.target.value)}
                     placeholder={placeholder}
-                    className="w-full pl-10 pr-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all"
+                    className={`w-full pl-9 sm:pl-10 pr-3 sm:pr-4 py-2 sm:py-2.5 text-sm sm:text-base border rounded-lg focus:outline-none focus:ring-2 transition-all ${
+                        error
+                            ? 'border-red-300 focus:ring-red-500 focus:border-red-500'
+                            : 'border-gray-300 focus:ring-blue-500 focus:border-blue-500'
+                    }`}
                 />
             </div>
+            {error && <p className="text-red-500 text-xs sm:text-sm mt-1">{error}</p>}
         </div>
     )
 }
 
-export default function AddressForm({ sizes }) {
+export default function AddressForm({ sizes, name }) {
     const [fullName, setFullName] = useState('')
     const [selectSize, setSelectSize] = useState('')
     const [phone, setPhone] = useState('')
@@ -314,8 +145,41 @@ export default function AddressForm({ sizes }) {
     const [selectedProvince, setSelectedProvince] = useState('')
     const [selectedDistrict, setSelectedDistrict] = useState('')
     const [selectedWard, setSelectedWard] = useState('')
+    const [quantity, setQuantity] = useState(1)
+    const [showSuccess, setShowSuccess] = useState(false)
+    const [errors, setErrors] = useState({})
 
-    // Chuyển đổi provinces thành array để hiển thị
+    // Validate tên
+    const validateName = (name) => {
+        if (!name.trim()) return 'Họ tên không được để trống'
+        if (name.trim().length < 4) return 'Họ tên phải có ít nhất 4 ký tự'
+        return ''
+    }
+
+    // Validate số điện thoại
+    const validatePhone = (phone) => {
+        if (!phone.trim()) return 'Số điện thoại không được để trống'
+        const phoneRegex = /^(0|\+84)[3|5|7|8|9][0-9]{8}$/
+        if (!phoneRegex.test(phone.replace(/\s/g, ''))) return 'Số điện thoại không hợp lệ'
+        return ''
+    }
+
+    // Xử lý thay đổi tên
+    const handleNameChange = (value) => {
+        setFullName(value)
+        if (errors.fullName) {
+            setErrors((prev) => ({ ...prev, fullName: validateName(value) }))
+        }
+    }
+
+    // Xử lý thay đổi số điện thoại
+    const handlePhoneChange = (value) => {
+        setPhone(value)
+        if (errors.phone) {
+            setErrors((prev) => ({ ...prev, phone: validatePhone(value) }))
+        }
+    }
+
     const provinces = useMemo(() => {
         return Object.entries(vietnamData.provinces).map(([id, data]) => ({
             id,
@@ -323,7 +187,6 @@ export default function AddressForm({ sizes }) {
         }))
     }, [])
 
-    // Lấy danh sách huyện dựa vào tỉnh đã chọn
     const districts = useMemo(() => {
         if (!selectedProvince) return []
         const province = vietnamData.provinces[selectedProvince]
@@ -335,7 +198,6 @@ export default function AddressForm({ sizes }) {
         }))
     }, [selectedProvince])
 
-    // Lấy danh sách xã dựa vào huyện đã chọn
     const wards = useMemo(() => {
         if (!selectedDistrict) return []
         const district = vietnamData.districts[selectedDistrict]
@@ -347,20 +209,17 @@ export default function AddressForm({ sizes }) {
         }))
     }, [selectedDistrict])
 
-    // Reset huyện và xã khi đổi tỉnh
     const handleProvinceChange = (provinceId) => {
         setSelectedProvince(provinceId)
         setSelectedDistrict('')
         setSelectedWard('')
     }
 
-    // Reset xã khi đổi huyện
     const handleDistrictChange = (districtId) => {
         setSelectedDistrict(districtId)
         setSelectedWard('')
     }
 
-    // Lấy địa chỉ đầy đủ
     const getFullAddress = () => {
         const parts = []
         if (specificAddress) parts.push(specificAddress)
@@ -371,27 +230,65 @@ export default function AddressForm({ sizes }) {
         return parts.length > 0 ? parts.join(', ') : ''
     }
 
-    // Kiểm tra form hợp lệ
     const isFormValid =
         fullName && phone && selectedProvince && selectedDistrict && selectedWard && specificAddress && selectSize
 
-    // Xử lý submit
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault()
+
+        // Validate tất cả các trường
+        const nameError = validateName(fullName)
+        const phoneError = validatePhone(phone)
+
+        const newErrors = {
+            fullName: nameError,
+            phone: phoneError,
+        }
+
+        if (phoneError || nameError) {
+            setErrors(newErrors)
+            return
+        }
+
+        // Kiểm tra nếu có lỗi
         if (!isFormValid) {
-            alert('Vui lòng điền đầy đủ thông tin!')
+            alert('Vui lòng điền đầy đủ và chính xác thông tin!')
             return
         }
 
         const formData = {
             fullName,
             phone,
-            selectSize,
-            specificAddress,
             fullAddress: getFullAddress(),
+            productName: name,
+            quantity: quantity,
+            selectSize,
         }
 
-        console.log('Form Data:', formData)
+        try {
+            const response = await fetch(
+                'https://script.google.com/macros/s/AKfycby9k5SqVa7U8GRkoo4rLbCqbpmk89cOWXd-f0Yb5hnaLpm_zbanh75FB36Ebqkl-UboqA/exec',
+                {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData),
+                }
+            )
+
+            // Hiển thị popup thành công
+            setShowSuccess(true)
+
+            // Tự động ẩn sau 3 giây
+            setTimeout(() => {
+                setShowSuccess(false)
+            }, 3000)
+        } catch (error) {
+            console.error('Lỗi:', error)
+            alert('Có lỗi xảy ra. Vui lòng thử lại!')
+        }
     }
 
     return (
@@ -399,11 +296,11 @@ export default function AddressForm({ sizes }) {
             <div className="max-w-2xl mx-auto">
                 <div className="bg-white rounded-2xl shadow-xl p-8">
                     <div className="flex items-center gap-3 mb-6">
-                        <div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center">
-                            <MapPin className="w-6 h-6 text-white" />
+                        <div className="w-8 h-8 sm:w-12 sm:h-12 bg-blue-500 rounded-xl flex items-center justify-center">
+                            <MapPin className="w-4 sm:w-6 h-4 sm:h-6 text-white" />
                         </div>
                         <div>
-                            <h1 className="text-2xl font-bold text-gray-900">Thông Tin Giao Hàng</h1>
+                            <h1 className="text-sm sm:text-2xl font-bold text-gray-900">Thông Tin Giao Hàng</h1>
                             <p className="text-sm text-gray-500">Vui lòng điền đầy đủ thông tin bên dưới</p>
                         </div>
                     </div>
@@ -414,9 +311,10 @@ export default function AddressForm({ sizes }) {
                             label="Họ và tên"
                             icon={User}
                             value={fullName}
-                            onChange={setFullName}
+                            onChange={handleNameChange}
                             placeholder="Nguyễn Văn A"
                             required
+                            error={errors.fullName}
                         />
 
                         {/* Số điện thoại */}
@@ -424,10 +322,11 @@ export default function AddressForm({ sizes }) {
                             label="Số điện thoại"
                             icon={Phone}
                             value={phone}
-                            onChange={setPhone}
+                            onChange={handlePhoneChange}
                             placeholder="0123456789"
                             required
                             type="tel"
+                            error={errors.phone}
                         />
 
                         {/* Tỉnh/Thành phố */}
@@ -479,15 +378,40 @@ export default function AddressForm({ sizes }) {
                             </div>
                         )}
 
+                        <p className="text-base sm:text-xl font-bold">Kích thước</p>
                         {sizes.map((size) => (
-                            <>
-                                <input type="radio" name="size" id={size} onChange={() => setSelectSize(size)} />
-                                <label className="mr-2" htmlFor={size}>
-                                    {' '}
-                                    SIZE {size}
-                                </label>
-                            </>
+                            <label key={size} className="inline-block mr-2 mb-2">
+                                <input
+                                    type="radio"
+                                    name="size"
+                                    value={size}
+                                    onChange={() => setSelectSize(size)}
+                                    className="hidden peer"
+                                />
+                                <span className="inline-flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 border-2 border-gray-300 rounded-lg cursor-pointer transition-all hover:border-gray-500 peer-checked:border-blue-500 peer-checked:bg-blue-50 font-semibold">
+                                    {size}
+                                </span>
+                            </label>
                         ))}
+
+                        <p className="text-base sm:text-xl font-bold">Số lượng đặt hàng</p>
+                        <div className="flex items-center rounded-lg">
+                            <button
+                                type="button"
+                                onClick={() => setQuantity(Math.max(1, quantity - 1))}
+                                className="p-3 hover:bg-gray-100"
+                            >
+                                <Minus className="w-4 h-4 sm:w-5 sm:h-5" />
+                            </button>
+                            <p className="px-2 text-xl">{quantity}</p>
+                            <button
+                                type="button"
+                                onClick={() => setQuantity(quantity + 1)}
+                                className="p-3 hover:bg-gray-100"
+                            >
+                                <Plus className="w-4 h-4 sm:w-5 sm:h-5" />
+                            </button>
+                        </div>
 
                         {/* Nút submit */}
                         <button
@@ -506,6 +430,29 @@ export default function AddressForm({ sizes }) {
                     </form>
                 </div>
             </div>
+            {showSuccess && (
+                <div className="fixed inset-0 flex items-center justify-center z-50 pointer-events-none">
+                    <div className="animate-bounce-in scale-100 bg-linear-to-r from-green-400 to-emerald-500 text-white px-6 py-4 rounded-2xl shadow-2xl flex items-center gap-3 transform transition-all duration-300">
+                        <svg
+                            className="w-8 h-8 animate-spin-slow"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={3}
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                            />
+                        </svg>
+                        <div>
+                            <p className="font-bold text-lg">Thành công!</p>
+                            <p className="text-sm opacity-90">Thông tin đã được gửi đi.</p>
+                        </div>
+                    </div>
+                </div>
+            )}
         </div>
     )
 }
