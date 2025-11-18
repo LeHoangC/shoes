@@ -1,7 +1,7 @@
 [
     {
         "id": "553558-611",
-        "name": "Nike Air Jordan 1 Low Gym Red ",
+        "name": "Nike Air Jordan 1 Low Midnight Navy Wolf Grey",
         "brand": "NIKE",
         "category": "Giày thể thao",
         "badges": {
@@ -16,13 +16,14 @@
             "currency": "VND"
         },
         "images": [
-            "AIR+JORDAN+1+LOW (1).jpg",
-            "AIR+JORDAN+1+LOW (8).jpg",
-            "AIR+JORDAN+1+LOW (3).jpg",
-            "AIR+JORDAN+1+LOW (2).jpg",
-            "AIR+JORDAN+1+LOW (4).jpg",
-            "AIR+JORDAN+1+LOW (5).jpg",
-            "AIR+JORDAN+1+LOW (6).jpg"
+            "/Nike Air Jordan 1 Low Midnight Navy Wolf Grey/air-jordan-1-low-gs-4.jpg",
+            "/Nike Air Jordan 1 Low Midnight Navy Wolf Grey/air-jordan-1-low-gs-3.jpg",
+            "/Nike Air Jordan 1 Low Midnight Navy Wolf Grey/air-jordan-1-low-gs-2.jpg",
+            "/Nike Air Jordan 1 Low Midnight Navy Wolf Grey/air-jordan-1-low-gs-1.jpg",
+            "/Nike Air Jordan 1 Low Midnight Navy Wolf Grey/AIR-JORDAN-1-LOW-_GS_.jpg",
+            "/Nike Air Jordan 1 Low Midnight Navy Wolf Grey/AIR-JORDAN-1-LOW-_GS_-_5_.jpg",
+            "/Nike Air Jordan 1 Low Midnight Navy Wolf Grey/AIR-JORDAN-1-LOW-_GS_-_6_.jpg",
+            "/Nike Air Jordan 1 Low Midnight Navy Wolf Grey/AIR-JORDAN-1-LOW-_GS_-_7_.jpg"
         ],
         "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
         "rating": {
@@ -41,7 +42,7 @@
                 "rating": 5,
                 "date": "20 giờ trước",
                 "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
-                "images": [],
+                "images": ["/Nike Air Jordan 1 Low Midnight Navy Wolf Grey/rv1.jpg"],
                 "helpful": 41
             },
             {
@@ -51,7 +52,7 @@
                 "rating": 5,
                 "date": "2025-09-10",
                 "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
+                "images": ["/Nike Air Jordan 1 Low Midnight Navy Wolf Grey/rv2.jpg"],
                 "helpful": 38
             },
             {
@@ -61,7 +62,7 @@
                 "rating": 4,
                 "date": "2025-09-05",
                 "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
-                "images": [],
+                "images": ["/Nike Air Jordan 1 Low Midnight Navy Wolf Grey/rv3.jpg"],
                 "helpful": 25
             },
             {
@@ -71,7 +72,7 @@
                 "rating": 5,
                 "date": "2025-08-30",
                 "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
+                "images": ["/Nike Air Jordan 1 Low Midnight Navy Wolf Grey/rv4.jpg"],
                 "helpful": 52
             },
             {
@@ -96,7 +97,7 @@
 
     {
         "id": "553558-116",
-        "name": "Nike Air Jordan 1 Low Midnight Navy Wolf Grey ",
+        "name": "Nike Air Jordan 1 Low Panda",
         "brand": "NIKE",
         "category": "Giày thể thao",
         "badges": {
@@ -111,12 +112,14 @@
             "currency": "VND"
         },
         "images": [
-            "main-image.jpg",
-            "top-view.jpg",
-            "side-view.jpg",
-            "detail-view.jpg",
-            "sole-view.jpg",
-            "box-view.jpg"
+            "/Nike Air Jordan 1 Low Panda/AIRJORDAN1LOW (4).jpg",
+            "/Nike Air Jordan 1 Low Panda/AIRJORDAN1LOW (3).jpg",
+            "/Nike Air Jordan 1 Low Panda/AIRJORDAN1LOW (2).jpg",
+            "/Nike Air Jordan 1 Low Panda/AIRJORDAN1LOW (1).jpg",
+            "/Nike Air Jordan 1 Low Panda/AIR-JORDAN-1-LOW-_7_.jpg",
+            "/Nike Air Jordan 1 Low Panda/AIR-JORDAN-1-LOW-_6_.jpg",
+            "/Nike Air Jordan 1 Low Panda/AIR-JORDAN-1-LOW-_5_.jpg",
+            "/Nike Air Jordan 1 Low Panda/AIR-JORDAN-1-LOW (1).jpg"
         ],
         "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
         "rating": {
@@ -145,7 +148,7 @@
                 "rating": 5,
                 "date": "2025-09-10",
                 "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
+                "images": [],
                 "helpful": 38
             },
             {
@@ -165,7 +168,7 @@
                 "rating": 5,
                 "date": "2025-08-30",
                 "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
+                "images": [],
                 "helpful": 52
             },
             {
@@ -191,7 +194,7 @@
 
     {
         "id": "DC0774-101",
-        "name": "Nike Air Jordan 1 Low Panda ",
+        "name": "Giày Nike Air Force 1 07 Triple White",
         "brand": "NIKE",
         "category": "Giày thể thao",
         "badges": {
@@ -206,12 +209,12 @@
             "currency": "VND"
         },
         "images": [
-            "main-image.jpg",
-            "top-view.jpg",
-            "side-view.jpg",
-            "detail-view.jpg",
-            "sole-view.jpg",
-            "box-view.jpg"
+            "/Giày Nike Air Force 1 07 Triple White/1.jpg",
+            "/Giày Nike Air Force 1 07 Triple White/2.jpg",
+            "/Giày Nike Air Force 1 07 Triple White/3.jpg",
+            "/Giày Nike Air Force 1 07 Triple White/4.jpg",
+            "/Giày Nike Air Force 1 07 Triple White/5.jpg",
+            "/Giày Nike Air Force 1 07 Triple White/6.jpg"
         ],
         "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
         "rating": {
@@ -240,7 +243,7 @@
                 "rating": 5,
                 "date": "2025-09-10",
                 "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
+                "images": [],
                 "helpful": 38
             },
             {
@@ -260,7 +263,7 @@
                 "rating": 5,
                 "date": "2025-08-30",
                 "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
+                "images": [],
                 "helpful": 52
             },
             {
@@ -285,7 +288,7 @@
 
     {
         "id": "CW2288-111",
-        "name": "Giày Nike Air Force 1 07 Triple White ",
+        "name": "Nike Air Jordan 1 Low UNC University Blue",
         "brand": "NIKE",
         "category": "Giày thể thao",
         "badges": {
@@ -300,12 +303,12 @@
             "currency": "VND"
         },
         "images": [
-            "main-image.jpg",
-            "top-view.jpg",
-            "side-view.jpg",
-            "detail-view.jpg",
-            "sole-view.jpg",
-            "box-view.jpg"
+            "/Nike Air Jordan 1 Low UNC University Blue/WMNSAIRJORDAN1LOW (4).jpg",
+            "/Nike Air Jordan 1 Low UNC University Blue/WMNSAIRJORDAN1LOW (2).jpg",
+            "/Nike Air Jordan 1 Low UNC University Blue/WMNSAIRJORDAN1LOW (3).jpg",
+            "/Nike Air Jordan 1 Low UNC University Blue/WMNSAIRJORDAN1LOW (1).jpg",
+            "/Nike Air Jordan 1 Low UNC University Blue/WMNSAIRJORDAN1LOW (5).jpg",
+            "/Nike Air Jordan 1 Low UNC University Blue/WMNSAIRJORDAN1LOW (6).jpg"
         ],
         "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
         "rating": {
@@ -334,7 +337,7 @@
                 "rating": 5,
                 "date": "2025-09-10",
                 "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
+                "images": [],
                 "helpful": 38
             },
             {
@@ -354,7 +357,7 @@
                 "rating": 5,
                 "date": "2025-08-30",
                 "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
+                "images": [],
                 "helpful": 52
             },
             {
@@ -379,7 +382,7 @@
 
     {
         "id": "AO9944-441",
-        "name": "Nike Air Jordan 1 Low UNC University Blue ",
+        "name": "Giày Nike Air Jordan 1 Low White Univeristy Red",
         "brand": "NIKE",
         "category": "Giày thể thao",
         "badges": {
@@ -394,12 +397,15 @@
             "currency": "VND"
         },
         "images": [
-            "main-image.jpg",
-            "top-view.jpg",
-            "side-view.jpg",
-            "detail-view.jpg",
-            "sole-view.jpg",
-            "box-view.jpg"
+            "/Giày Nike Air Jordan 1 Low White Univeristy Red/1.jpg",
+            "/Giày Nike Air Jordan 1 Low White Univeristy Red/2.jpg",
+            "/Giày Nike Air Jordan 1 Low White Univeristy Red/3.jpg",
+            "/Giày Nike Air Jordan 1 Low White Univeristy Red/4.jpg",
+            "/Giày Nike Air Jordan 1 Low White Univeristy Red/5.jpg",
+            "/Giày Nike Air Jordan 1 Low White Univeristy Red/6.jpg",
+            "/Giày Nike Air Jordan 1 Low White Univeristy Red/7.jpg",
+            "/Giày Nike Air Jordan 1 Low White Univeristy Red/8.jpg",
+            "/Giày Nike Air Jordan 1 Low White Univeristy Red/9.jpg"
         ],
         "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
         "rating": {
@@ -418,7 +424,7 @@
                 "rating": 5,
                 "date": "20 giờ trước",
                 "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
-                "images": [],
+                "images": ["/Giày Nike Air Jordan 1 Low White Univeristy Red/rv1.jpg"],
                 "helpful": 41
             },
             {
@@ -428,7 +434,7 @@
                 "rating": 5,
                 "date": "2025-09-10",
                 "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
+                "images": ["/Giày Nike Air Jordan 1 Low White Univeristy Red/rv2.jpg"],
                 "helpful": 38
             },
             {
@@ -438,7 +444,7 @@
                 "rating": 4,
                 "date": "2025-09-05",
                 "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
-                "images": [],
+                "images": ["/Giày Nike Air Jordan 1 Low White Univeristy Red/rv3.jpg"],
                 "helpful": 25
             },
             {
@@ -448,7 +454,7 @@
                 "rating": 5,
                 "date": "2025-08-30",
                 "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
+                "images": ["/Giày Nike Air Jordan 1 Low White Univeristy Red/rv4.jpg"],
                 "helpful": 52
             },
             {
@@ -458,7 +464,7 @@
                 "rating": 5,
                 "date": "2025-08-25",
                 "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
-                "images": [],
+                "images": ["/Giày Nike Air Jordan 1 Low White Univeristy Red/rv5.jpg"],
                 "helpful": 47
             }
         ],
@@ -473,7 +479,7 @@
 
     {
         "id": "553558-118",
-        "name": "Giày Nike Air Jordan 1 Low White Univeristy Red",
+        "name": "Nike Air Jordan 1 Low White Industrial Blue Siren Red",
         "brand": "NIKE",
         "category": "Giày thể thao",
         "badges": {
@@ -488,12 +494,12 @@
             "currency": "VND"
         },
         "images": [
-            "main-image.jpg",
-            "top-view.jpg",
-            "side-view.jpg",
-            "detail-view.jpg",
-            "sole-view.jpg",
-            "box-view.jpg"
+            "/Nike Air Jordan 1 Low White Industrial Blue Siren Red/1.jpeg",
+            "/Nike Air Jordan 1 Low White Industrial Blue Siren Red/2.jpeg",
+            "/Nike Air Jordan 1 Low White Industrial Blue Siren Red/3.jpeg",
+            "/Nike Air Jordan 1 Low White Industrial Blue Siren Red/4.jpeg",
+            "/Nike Air Jordan 1 Low White Industrial Blue Siren Red/5.jpeg",
+            "/Nike Air Jordan 1 Low White Industrial Blue Siren Red/6.jpg"
         ],
         "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
         "rating": {
@@ -512,7 +518,7 @@
                 "rating": 5,
                 "date": "20 giờ trước",
                 "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
-                "images": [],
+                "images": ["/Nike Air Jordan 1 Low White Industrial Blue Siren Red/rv1.jpg"],
                 "helpful": 41
             },
             {
@@ -522,7 +528,7 @@
                 "rating": 5,
                 "date": "2025-09-10",
                 "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
+                "images": ["/Nike Air Jordan 1 Low White Industrial Blue Siren Red/rv2.jpg"],
                 "helpful": 38
             },
             {
@@ -532,7 +538,7 @@
                 "rating": 4,
                 "date": "2025-09-05",
                 "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
-                "images": [],
+                "images": ["/Nike Air Jordan 1 Low White Industrial Blue Siren Red/rv3.jpg"],
                 "helpful": 25
             },
             {
@@ -542,7 +548,7 @@
                 "rating": 5,
                 "date": "2025-08-30",
                 "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
+                "images": ["/Nike Air Jordan 1 Low White Industrial Blue Siren Red/rv4.jpg"],
                 "helpful": 52
             },
             {
@@ -552,8 +558,18 @@
                 "rating": 5,
                 "date": "2025-08-25",
                 "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
-                "images": [],
+                "images": ["/Nike Air Jordan 1 Low White Industrial Blue Siren Red/rv5.jpg"],
                 "helpful": 47
+            },
+            {
+                "id": "rev_011",
+                "userName": "Trương Ngọc Anh",
+                "avatar": "/avt5.jpg",
+                "rating": 5,
+                "date": "2025-07-25",
+                "content": "Thiết kế trẻ trung, dễ phối đồ. Giá sale quá rẻ so với chất lượng!",
+                "images": ["/Nike Air Jordan 1 Low White Industrial Blue Siren Red/rv6.jpg"],
+                "helpful": 40
             }
         ],
         "features": [
@@ -567,7 +583,7 @@
 
     {
         "id": "FV3622-141",
-        "name": "Nike Air Jordan 1 Low White Industrial Blue Siren Red",
+        "name": "Giày Nike Wmns Air Jordan 1 Low White Wolf Grey",
         "brand": "NIKE",
         "category": "Giày thể thao",
         "badges": {
@@ -582,12 +598,10 @@
             "currency": "VND"
         },
         "images": [
-            "main-image.jpg",
-            "top-view.jpg",
-            "side-view.jpg",
-            "detail-view.jpg",
-            "sole-view.jpg",
-            "box-view.jpg"
+            "/Giày Nike Wmns Air Jordan 1 Low White Wolf Grey/1.jpg",
+            "/Giày Nike Wmns Air Jordan 1 Low White Wolf Grey/2.jpg",
+            "/Giày Nike Wmns Air Jordan 1 Low White Wolf Grey/3.jpg",
+            "/Giày Nike Wmns Air Jordan 1 Low White Wolf Grey/4.jpg"
         ],
         "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
         "rating": {
@@ -606,7 +620,7 @@
                 "rating": 5,
                 "date": "20 giờ trước",
                 "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
-                "images": [],
+                "images": ["/Giày Nike Wmns Air Jordan 1 Low White Wolf Grey/rv1.png"],
                 "helpful": 41
             },
             {
@@ -616,7 +630,7 @@
                 "rating": 5,
                 "date": "2025-09-10",
                 "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
+                "images": ["/Giày Nike Wmns Air Jordan 1 Low White Wolf Grey/rv2.jpg"],
                 "helpful": 38
             },
             {
@@ -626,7 +640,7 @@
                 "rating": 4,
                 "date": "2025-09-05",
                 "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
-                "images": [],
+                "images": ["/Giày Nike Wmns Air Jordan 1 Low White Wolf Grey/rv3.jpg"],
                 "helpful": 25
             },
             {
@@ -636,7 +650,7 @@
                 "rating": 5,
                 "date": "2025-08-30",
                 "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
+                "images": ["/Giày Nike Wmns Air Jordan 1 Low White Wolf Grey/rv4.jpg"],
                 "helpful": 52
             },
             {
@@ -661,7 +675,7 @@
 
     {
         "id": "DC0774-105",
-        "name": "Nike Air Jordan 1 Low White Wolf Grey",
+        "name": "Nike Vapor Pro 3 Black",
         "brand": "NIKE",
         "category": "Giày thể thao",
         "badges": {
@@ -676,12 +690,14 @@
             "currency": "VND"
         },
         "images": [
-            "main-image.jpg",
-            "top-view.jpg",
-            "side-view.jpg",
-            "detail-view.jpg",
-            "sole-view.jpg",
-            "box-view.jpg"
+            "/Nike Vapor Pro 3 Black/1.jpg",
+            "/Nike Vapor Pro 3 Black/2.jpg",
+            "/Nike Vapor Pro 3 Black/3.jpg",
+            "/Nike Vapor Pro 3 Black/4.jpg",
+            "/Nike Vapor Pro 3 Black/5.jpg",
+            "/Nike Vapor Pro 3 Black/6.jpg",
+            "/Nike Vapor Pro 3 Black/7.jpg",
+            "/Nike Vapor Pro 3 Black/8.jpg"
         ],
         "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
         "rating": {
@@ -710,7 +726,7 @@
                 "rating": 5,
                 "date": "2025-09-10",
                 "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
+                "images": [],
                 "helpful": 38
             },
             {
@@ -730,7 +746,7 @@
                 "rating": 5,
                 "date": "2025-08-30",
                 "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
+                "images": [],
                 "helpful": 52
             },
             {
@@ -755,7 +771,7 @@
 
     {
         "id": "FZ2161-002",
-        "name": "Nike Vapor Pro 3 Black",
+        "name": "Giày Nike Vapor Pro 3 White",
         "brand": "NIKE",
         "category": "Giày Pickleball",
         "badges": {
@@ -770,12 +786,14 @@
             "currency": "VND"
         },
         "images": [
-            "main-image.jpg",
-            "top-view.jpg",
-            "side-view.jpg",
-            "detail-view.jpg",
-            "sole-view.jpg",
-            "box-view.jpg"
+            "/Giày Nike Vapor Pro 3 White/1.jpg",
+            "/Giày Nike Vapor Pro 3 White/2.jpg",
+            "/Giày Nike Vapor Pro 3 White/3.jpg",
+            "/Giày Nike Vapor Pro 3 White/4.jpg",
+            "/Giày Nike Vapor Pro 3 White/5.jpg",
+            "/Giày Nike Vapor Pro 3 White/6.jpg",
+            "/Giày Nike Vapor Pro 3 White/7.jpg",
+            "/Giày Nike Vapor Pro 3 White/8.jpg"
         ],
         "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
         "rating": {
@@ -804,7 +822,7 @@
                 "rating": 5,
                 "date": "2025-09-10",
                 "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
+                "images": [],
                 "helpful": 38
             },
             {
@@ -824,7 +842,7 @@
                 "rating": 5,
                 "date": "2025-08-30",
                 "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
+                "images": [],
                 "helpful": 52
             },
             {
@@ -849,7 +867,7 @@
 
     {
         "id": "FZ2161-002",
-        "name": "Nike Vapor Pro 3 Black",
+        "name": "Nike Court Air Zoom Vapor Pro 3 HC Amethyst Tint",
         "brand": "NIKE",
         "category": "Giày Pickleball",
         "badges": {
@@ -864,12 +882,13 @@
             "currency": "VND"
         },
         "images": [
-            "main-image.jpg",
-            "top-view.jpg",
-            "side-view.jpg",
-            "detail-view.jpg",
-            "sole-view.jpg",
-            "box-view.jpg"
+            "/Nike Court Air Zoom Vapor Pro 3 HC Amethyst Tint/1.jpg",
+            "/Nike Court Air Zoom Vapor Pro 3 HC Amethyst Tint/2.jpg",
+            "/Nike Court Air Zoom Vapor Pro 3 HC Amethyst Tint/3.jpg",
+            "/Nike Court Air Zoom Vapor Pro 3 HC Amethyst Tint/4.jpg",
+            "/Nike Court Air Zoom Vapor Pro 3 HC Amethyst Tint/5.jpg",
+            "/Nike Court Air Zoom Vapor Pro 3 HC Amethyst Tint/6.jpg",
+            "/Nike Court Air Zoom Vapor Pro 3 HC Amethyst Tint/7.jpg"
         ],
         "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
         "rating": {
@@ -898,7 +917,7 @@
                 "rating": 5,
                 "date": "2025-09-10",
                 "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
+                "images": [],
                 "helpful": 38
             },
             {
@@ -918,7 +937,7 @@
                 "rating": 5,
                 "date": "2025-08-30",
                 "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
+                "images": [],
                 "helpful": 52
             },
             {
@@ -943,7 +962,7 @@
 
     {
         "id": "FZ2158-100",
-        "name": "Giày Nike Vapor Pro 3 White",
+        "name": "Nike Court Air Zoom Vapor Pro 3 Premium HC High Voltage",
         "brand": "NIKE",
         "category": "Giày Pickleball",
         "badges": {
@@ -958,12 +977,12 @@
             "currency": "VND"
         },
         "images": [
-            "main-image.jpg",
-            "top-view.jpg",
-            "side-view.jpg",
-            "detail-view.jpg",
-            "sole-view.jpg",
-            "box-view.jpg"
+            "/Nike Court Air Zoom Vapor Pro 3 Premium HC High Voltage/1.jpg",
+            "/Nike Court Air Zoom Vapor Pro 3 Premium HC High Voltage/2.jpg",
+            "/Nike Court Air Zoom Vapor Pro 3 Premium HC High Voltage/3.jpg",
+            "/Nike Court Air Zoom Vapor Pro 3 Premium HC High Voltage/4.jpg",
+            "/Nike Court Air Zoom Vapor Pro 3 Premium HC High Voltage/5.jpg",
+            "/Nike Court Air Zoom Vapor Pro 3 Premium HC High Voltage/6.jpg"
         ],
         "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
         "rating": {
@@ -992,7 +1011,7 @@
                 "rating": 5,
                 "date": "2025-09-10",
                 "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
+                "images": [],
                 "helpful": 38
             },
             {
@@ -1012,7 +1031,7 @@
                 "rating": 5,
                 "date": "2025-08-30",
                 "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
+                "images": [],
                 "helpful": 52
             },
             {
@@ -1037,7 +1056,7 @@
 
     {
         "id": "FZ2158-100",
-        "name": "Giày Nike Vapor Pro 3 White",
+        "name": "Nike Zoom Vapor Pro 3 Ashen Slate",
         "brand": "NIKE",
         "category": "Giày Pickleball",
         "badges": {
@@ -1052,12 +1071,12 @@
             "currency": "VND"
         },
         "images": [
-            "main-image.jpg",
-            "top-view.jpg",
-            "side-view.jpg",
-            "detail-view.jpg",
-            "sole-view.jpg",
-            "box-view.jpg"
+            "/Nike Zoom Vapor Pro 3 Ashen Slate/1.jpg",
+            "/Nike Zoom Vapor Pro 3 Ashen Slate/2.jpg",
+            "/Nike Zoom Vapor Pro 3 Ashen Slate/3.jpg",
+            "/Nike Zoom Vapor Pro 3 Ashen Slate/4.jpg",
+            "/Nike Zoom Vapor Pro 3 Ashen Slate/5.jpg",
+            "/Nike Zoom Vapor Pro 3 Ashen Slate/6.jpg"
         ],
         "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
         "rating": {
@@ -1086,7 +1105,7 @@
                 "rating": 5,
                 "date": "2025-09-10",
                 "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
+                "images": [],
                 "helpful": 38
             },
             {
@@ -1106,7 +1125,7 @@
                 "rating": 5,
                 "date": "2025-08-30",
                 "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
+                "images": [],
                 "helpful": 52
             },
             {
@@ -1131,7 +1150,7 @@
 
     {
         "id": "FZ2158-500",
-        "name": "Nike Court Air Zoom Vapor Pro 3 HC Amethyst Tint",
+        "name": "Pickleball Vapor 12 Amethyst Tint",
         "brand": "NIKE",
         "category": "Giày Pickleball",
         "badges": {
@@ -1146,12 +1165,17 @@
             "currency": "VND"
         },
         "images": [
-            "main-image.jpg",
-            "top-view.jpg",
-            "side-view.jpg",
-            "detail-view.jpg",
-            "sole-view.jpg",
-            "box-view.jpg"
+            "/Pickleball Vapor 12 Amethyst Tint/1.jpg",
+            "/Pickleball Vapor 12 Amethyst Tint/2.jpg",
+            "/Pickleball Vapor 12 Amethyst Tint/3.jpg",
+            "/Pickleball Vapor 12 Amethyst Tint/4.jpg",
+            "/Pickleball Vapor 12 Amethyst Tint/5.jpg",
+            "/Pickleball Vapor 12 Amethyst Tint/6.jpg",
+            "/Pickleball Vapor 12 Amethyst Tint/7.jpg",
+            "/Pickleball Vapor 12 Amethyst Tint/8.jpg",
+            "/Pickleball Vapor 12 Amethyst Tint/9.jpg",
+            "/Pickleball Vapor 12 Amethyst Tint/10.jpg",
+            "/Pickleball Vapor 12 Amethyst Tint/11.jpg"
         ],
         "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
         "rating": {
@@ -1180,7 +1204,7 @@
                 "rating": 5,
                 "date": "2025-09-10",
                 "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
+                "images": [],
                 "helpful": 38
             },
             {
@@ -1200,7 +1224,7 @@
                 "rating": 5,
                 "date": "2025-08-30",
                 "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
+                "images": [],
                 "helpful": 52
             },
             {
@@ -1225,7 +1249,7 @@
 
     {
         "id": "HF7829-300",
-        "name": " Nike Court Air Zoom Vapor Pro 3 Premium HC High Voltage",
+        "name": "Nike Court Vapor Pro 3 Cactus Green",
         "brand": "NIKE",
         "category": "Giày Pickleball",
         "badges": {
@@ -1240,12 +1264,17 @@
             "currency": "VND"
         },
         "images": [
-            "main-image.jpg",
-            "top-view.jpg",
-            "side-view.jpg",
-            "detail-view.jpg",
-            "sole-view.jpg",
-            "box-view.jpg"
+            "/Nike Court Vapor Pro 3 Cactus Green/1.jpg",
+            "/Nike Court Vapor Pro 3 Cactus Green/2.jpg",
+            "/Nike Court Vapor Pro 3 Cactus Green/3.jpg",
+            "/Nike Court Vapor Pro 3 Cactus Green/4.jpg",
+            "/Nike Court Vapor Pro 3 Cactus Green/5.jpg",
+            "/Nike Court Vapor Pro 3 Cactus Green/6.jpg",
+            "/Nike Court Vapor Pro 3 Cactus Green/7.jpg",
+            "/Nike Court Vapor Pro 3 Cactus Green/8.jpg",
+            "/Nike Court Vapor Pro 3 Cactus Green/9.jpg",
+            "/Nike Court Vapor Pro 3 Cactus Green/10.jpg",
+            "/Nike Court Vapor Pro 3 Cactus Green/11.jpg"
         ],
         "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
         "rating": {
@@ -1274,7 +1303,7 @@
                 "rating": 5,
                 "date": "2025-09-10",
                 "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
+                "images": [],
                 "helpful": 38
             },
             {
@@ -1294,288 +1323,7 @@
                 "rating": 5,
                 "date": "2025-08-30",
                 "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
-                "helpful": 52
-            },
-            {
-                "id": "rev_010",
-                "userName": "Trương Ngọc Huyền",
-                "avatar": "/avt5.jpg",
-                "rating": 5,
-                "date": "2025-08-25",
-                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
                 "images": [],
-                "helpful": 47
-            }
-        ],
-        "features": [
-            "Thiết kế cổ điển năm 1985",
-            "Chất liệu da cao cấp",
-            "Đế giày Air-Sole êm ái",
-            "Phù hợp nhiều phong cách"
-        ],
-        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
-    },
-
-    {
-        "id": "FZ2161-400",
-        "name": " Nike Zoom Vapor Pro 3 Ashen Slate",
-        "brand": "NIKE",
-        "category": "Giày Pickleball",
-        "badges": {
-            "discount": 51,
-            "tag": "Bán Chạy",
-            "isBestseller": true,
-            "isFlashSale": true
-        },
-        "price": {
-            "current": 1690000,
-            "original": 3500000,
-            "currency": "VND"
-        },
-        "images": [
-            "main-image.jpg",
-            "top-view.jpg",
-            "side-view.jpg",
-            "detail-view.jpg",
-            "sole-view.jpg",
-            "box-view.jpg"
-        ],
-        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
-        "rating": {
-            "average": 4.9,
-            "totalReviews": 1012,
-            "totalSold": 24853
-        },
-        "promoCode": "V3Q8K1Z6PR",
-        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
-        "stock": 923,
-        "reviews": [
-            {
-                "id": "rev_006",
-                "userName": "Phạm Minh Châu",
-                "avatar": "/avt1.jpg",
-                "rating": 5,
-                "date": "20 giờ trước",
-                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
-                "images": [],
-                "helpful": 41
-            },
-            {
-                "id": "rev_007",
-                "userName": "Nguyễn Văn Hải",
-                "avatar": "/avt2.jpg",
-                "rating": 5,
-                "date": "2025-09-10",
-                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
-                "helpful": 38
-            },
-            {
-                "id": "rev_008",
-                "userName": "Vũ Thị Lan Anh",
-                "avatar": "/avt3.jpg",
-                "rating": 4,
-                "date": "2025-09-05",
-                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
-                "images": [],
-                "helpful": 25
-            },
-            {
-                "id": "rev_009",
-                "userName": "Đỗ Quốc Bảo",
-                "avatar": "/avt4.jpg",
-                "rating": 5,
-                "date": "2025-08-30",
-                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
-                "helpful": 52
-            },
-            {
-                "id": "rev_010",
-                "userName": "Trương Ngọc Huyền",
-                "avatar": "/avt5.jpg",
-                "rating": 5,
-                "date": "2025-08-25",
-                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
-                "images": [],
-                "helpful": 47
-            }
-        ],
-        "features": [
-            "Thiết kế cổ điển năm 1985",
-            "Chất liệu da cao cấp",
-            "Đế giày Air-Sole êm ái",
-            "Phù hợp nhiều phong cách"
-        ],
-        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
-    },
-
-    {
-        "id": "HJ6641-300",
-        "name": " Nike Court Vapor Pro 3 Cactus Green",
-        "brand": "NIKE",
-        "category": "Giày Pickleball",
-        "badges": {
-            "discount": 54,
-            "tag": "Bán Chạy",
-            "isBestseller": true,
-            "isFlashSale": true
-        },
-        "price": {
-            "current": 1690000,
-            "original": 3750000,
-            "currency": "VND"
-        },
-        "images": [
-            "main-image.jpg",
-            "top-view.jpg",
-            "side-view.jpg",
-            "detail-view.jpg",
-            "sole-view.jpg",
-            "box-view.jpg"
-        ],
-        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
-        "rating": {
-            "average": 4.9,
-            "totalReviews": 2012,
-            "totalSold": 31211
-        },
-        "promoCode": "B9H2T5W7GA",
-        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
-        "stock": 2347,
-        "reviews": [
-            {
-                "id": "rev_006",
-                "userName": "Phạm Minh Châu",
-                "avatar": "/avt1.jpg",
-                "rating": 5,
-                "date": "20 giờ trước",
-                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
-                "images": [],
-                "helpful": 41
-            },
-            {
-                "id": "rev_007",
-                "userName": "Nguyễn Văn Hải",
-                "avatar": "/avt2.jpg",
-                "rating": 5,
-                "date": "2025-09-10",
-                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
-                "helpful": 38
-            },
-            {
-                "id": "rev_008",
-                "userName": "Vũ Thị Lan Anh",
-                "avatar": "/avt3.jpg",
-                "rating": 4,
-                "date": "2025-09-05",
-                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
-                "images": [],
-                "helpful": 25
-            },
-            {
-                "id": "rev_009",
-                "userName": "Đỗ Quốc Bảo",
-                "avatar": "/avt4.jpg",
-                "rating": 5,
-                "date": "2025-08-30",
-                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
-                "helpful": 52
-            },
-            {
-                "id": "rev_010",
-                "userName": "Trương Ngọc Huyền",
-                "avatar": "/avt5.jpg",
-                "rating": 5,
-                "date": "2025-08-25",
-                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
-                "images": [],
-                "helpful": 47
-            }
-        ],
-        "features": [
-            "Thiết kế cổ điển năm 1985",
-            "Chất liệu da cao cấp",
-            "Đế giày Air-Sole êm ái",
-            "Phù hợp nhiều phong cách"
-        ],
-        "sizes": [36, 37, 38, 39, 40, 41, 42, 43]
-    },
-
-    {
-        "id": " FV5554-500",
-        "name": " Pickleball Vapor 12 Amethyst Tint",
-        "brand": "NIKE",
-        "category": "Giày Pickleball",
-        "badges": {
-            "discount": 57,
-            "isBestseller": true,
-            "isFlashSale": true
-        },
-        "price": {
-            "current": 1690000,
-            "original": 4090000,
-            "currency": "VND"
-        },
-        "images": [
-            "main-image.jpg",
-            "top-view.jpg",
-            "side-view.jpg",
-            "detail-view.jpg",
-            "sole-view.jpg",
-            "box-view.jpg"
-        ],
-        "description": "Ra mắt lần đầu vào năm 1985 bởi Jordan Brand, Nike Air Jordan 1 vẫn luôn duy trì được phong độ của mình, thậm chí còn có sức ảnh hưởng lớn tới văn hóa sneaker của giới trẻ ngày nay.",
-        "rating": {
-            "average": 4.9,
-            "totalReviews": 9012,
-            "totalSold": 17252
-        },
-        "promoCode": "M6P1X8N3LQ",
-        "promoDescription": "GIẢM GIÁ LÊN ĐẾN 70%",
-        "stock": 2347,
-        "reviews": [
-            {
-                "id": "rev_006",
-                "userName": "Phạm Minh Châu",
-                "avatar": "/avt1.jpg",
-                "rating": 5,
-                "date": "20 giờ trước",
-                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
-                "images": [],
-                "helpful": 41
-            },
-            {
-                "id": "rev_007",
-                "userName": "Nguyễn Văn Hải",
-                "avatar": "/avt2.jpg",
-                "rating": 5,
-                "date": "2025-09-10",
-                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
-                "images": ["review7.jpg"],
-                "helpful": 38
-            },
-            {
-                "id": "rev_008",
-                "userName": "Vũ Thị Lan Anh",
-                "avatar": "/avt3.jpg",
-                "rating": 4,
-                "date": "2025-09-05",
-                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
-                "images": [],
-                "helpful": 25
-            },
-            {
-                "id": "rev_009",
-                "userName": "Đỗ Quốc Bảo",
-                "avatar": "/avt4.jpg",
-                "rating": 5,
-                "date": "2025-08-30",
-                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
-                "images": ["review8.jpg", "review9.jpg"],
                 "helpful": 52
             },
             {

@@ -18,7 +18,7 @@ export default function ProductCard({ product }) {
                     )}
 
                     <img
-                        src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop"
+                        src={product.images[0]}
                         alt="Nike Air Jordan 1 Low SE"
                         className="w-full h-full object-contain"
                     />

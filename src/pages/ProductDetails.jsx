@@ -17,21 +17,19 @@ export default function ProductDetail() {
     const { id } = useParams()
     const product = useMemo(() => Products.find((pro) => pro.id === id), [id])
 
-    const images = [
-        'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&h=800&fit=crop',
-        'https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=800&h=800&fit=crop',
-        'https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800&h=800&fit=crop',
-        'https://images.unsplash.com/photo-1605348532760-6753d2c43329?w=800&h=800&fit=crop',
-    ]
+    const images = product.images || []
 
     // Auto slide every 3 seconds
     useEffect(() => {
+        window.scrollTo(0, 0)
+        if (!images || images.length === 0) return
+
         const interval = setInterval(() => {
             setCurrentImage((prev) => (prev + 1) % images.length)
         }, 3000)
 
         return () => clearInterval(interval)
-    }, [images.length])
+    }, [images])
 
     const nextImage = () => {
         setCurrentImage((prev) => (prev + 1) % images.length)
@@ -41,10 +39,12 @@ export default function ProductDetail() {
         setCurrentImage((prev) => (prev - 1 + images.length) % images.length)
     }
 
+    if (!product || images.length === 0) {
+        return <div>Product not found</div>
+    }
+
     return (
         <div className="min-h-screen bg-white pb-[10vh] md:pb-0">
-            {/* <AddressForm /> */}
-
             <Modal isOpen={showForm} onClose={() => setShowForm(false)}>
                 <AddressForm sizes={product.sizes} name={product.name} />
             </Modal>
@@ -67,7 +67,7 @@ export default function ProductDetail() {
                             </button>
                         </div>
 
-                        <div className="flex gap-2 overflow-x-auto">
+                        <div className="flex gap-2 overflow-x-auto scrollbar-hide">
                             {images.map((img, idx) => (
                                 <button
                                     key={idx}
@@ -202,7 +202,7 @@ export default function ProductDetail() {
                     </div>
                 </div>
 
-                <div className="flex gap-2 p-4 overflow-x-auto bg-white border-b">
+                <div className="flex gap-2 p-4 overflow-x-auto bg-white border-b scrollbar-hide">
                     {images.map((img, idx) => (
                         <button
                             key={idx}
@@ -471,11 +471,13 @@ export default function ProductDetail() {
                                         </div>
                                     </div>
                                     <p className="text-gray-700 mb-3">{rv.content}</p>
-                                    <img
-                                        src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=400&fit=crop"
-                                        alt="Review"
-                                        className="w-48 h-64 object-cover rounded-lg mb-3"
-                                    />
+                                    {rv.images?.[0] && (
+                                        <img
+                                            src={rv.images[0]}
+                                            alt="Review"
+                                            className="w-48 h-64 object-cover rounded-lg mb-3"
+                                        />
+                                    )}
                                     <div className="flex items-center gap-3 text-sm text-gray-500">
                                         <span>Thích · Phản hồi</span>
                                         <div className="flex items-center gap-1">
