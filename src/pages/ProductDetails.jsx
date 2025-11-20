@@ -220,7 +220,7 @@ export default function ProductDetail() {
                     <p className="text-sm text-gray-700 leading-relaxed">{product.description}</p>
                 </div>
 
-                <div className="flex items-center gap-3 p-4 bg-white border-b text-sm">
+                <div className="flex items-center gap-3 p-4 bg-white border-b text-base">
                     <div className="flex items-center gap-1">
                         <span className="text-orange-500 font-bold">{product.rating.average}</span>
                         <div className="flex">
@@ -264,11 +264,7 @@ export default function ProductDetail() {
                     {/* Card 1: Nhận hàng tại store */}
                     <div className="border-2 border-black rounded-3xl p-4 bg-gray-50">
                         <div className="flex items-start gap-3 mb-3">
-                            <svg
-                                className="w-8 h-8 text-purple-600 flex-shrink-0"
-                                fill="currentColor"
-                                viewBox="0 0 24 24"
-                            >
+                            <svg className="w-8 h-8 text-purple-600 shrink-0" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M20 6h-3V4c0-1.1-.9-2-2-2H9c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zM9 4h6v2H9V4zm11 15H4V8h16v11z" />
                             </svg>
                             <div>
@@ -278,11 +274,7 @@ export default function ProductDetail() {
                         </div>
 
                         <div className="flex items-start gap-3">
-                            <svg
-                                className="w-8 h-8 text-purple-600 flex-shrink-0"
-                                fill="currentColor"
-                                viewBox="0 0 24 24"
-                            >
+                            <svg className="w-8 h-8 text-purple-600 shrink-0" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z" />
                             </svg>
                             <div className="flex-1">
@@ -291,9 +283,9 @@ export default function ProductDetail() {
                                     <p className="text-xs text-gray-700 leading-relaxed">
                                         Chuyển phát nhanh của chúng tôi sẽ giao hàng đến địa chỉ của bạn
                                     </p>
-                                    <div className="text-right flex-shrink-0">
-                                        <p className="text-xs font-semibold">1-3 Ngày</p>
-                                        <p className="text-xs font-bold">FREESHIP</p>
+                                    <div className="text-right shrink-0">
+                                        <p className="text-xl font-semibold">1-3 Ngày</p>
+                                        <p className="text-xl font-bold">FREESHIP</p>
                                     </div>
                                 </div>
                             </div>
@@ -304,7 +296,7 @@ export default function ProductDetail() {
                     <div className="border-2 border-black rounded-3xl p-4 bg-gray-50">
                         <div className="flex items-start gap-3 mb-3">
                             <svg
-                                className="w-8 h-8 text-purple-600 flex-shrink-0"
+                                className="w-8 h-8 text-purple-600 shrink-0"
                                 fill="none"
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
@@ -323,7 +315,7 @@ export default function ProductDetail() {
 
                         <div className="flex items-center gap-3">
                             <svg
-                                className="w-8 h-8 text-purple-600 flex-shrink-0"
+                                className="w-8 h-8 text-purple-600 shrink-0"
                                 fill="none"
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"

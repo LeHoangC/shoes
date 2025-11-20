@@ -37,21 +37,21 @@
         "reviews": [
             {
                 "id": "rev_006",
-                "userName": "Phạm Minh Châu",
+                "userName": "Hà Thanh",
                 "avatar": "/avt1.jpg",
                 "rating": 5,
                 "date": "20 giờ trước",
-                "content": "Giày siêu nhẹ, đi như không mang gì. Chất da mềm mại, đường may chắc chắn. Đáng tiền từng xu!",
+                "content": "Giày siêu nhẹ, đi như không mang gì !",
                 "images": ["/Nike Air Jordan 1 Low Midnight Navy Wolf Grey/rv1.jpg"],
                 "helpful": 41
             },
             {
                 "id": "rev_007",
-                "userName": "Nguyễn Văn Hải",
+                "userName": "linh nguỹn",
                 "avatar": "/avt2.jpg",
                 "rating": 5,
                 "date": "2025-09-10",
-                "content": "Form giày chuẩn size, không bị rộng hay chật. Màu nâu sang trọng, hợp mặc đồ công sở. Ship nhanh trong 2 ngày.",
+                "content": ".",
                 "images": ["/Nike Air Jordan 1 Low Midnight Navy Wolf Grey/rv2.jpg"],
                 "helpful": 38
             },
@@ -61,27 +61,27 @@
                 "avatar": "/avt3.jpg",
                 "rating": 4,
                 "date": "2025-09-05",
-                "content": "Giày đẹp, êm chân. Chỉ tiếc là hộp hơi móp méo do vận chuyển, nhưng sản phẩm bên trong vẫn nguyên vẹn.",
+                "content": "Giày đẹp.",
                 "images": ["/Nike Air Jordan 1 Low Midnight Navy Wolf Grey/rv3.jpg"],
                 "helpful": 25
             },
             {
                 "id": "rev_009",
-                "userName": "Đỗ Quốc Bảo",
+                "userName": "ngọc",
                 "avatar": "/avt4.jpg",
                 "rating": 5,
                 "date": "2025-08-30",
-                "content": "Đế cao su chống trơn trượt tốt, đi mưa không lo. Mua 2 đôi luôn cho cả nhà, shop tư vấn nhiệt tình.",
+                "content": "Đi rất thoải mái,chơi 2 tiếng liền không bị đau gót.",
                 "images": ["/Nike Air Jordan 1 Low Midnight Navy Wolf Grey/rv4.jpg"],
                 "helpful": 52
             },
             {
                 "id": "rev_010",
-                "userName": "Trương Ngọc Huyền",
+                "userName": "Nguyễn Văn Hải",
                 "avatar": "/avt5.jpg",
                 "rating": 5,
                 "date": "2025-08-25",
-                "content": "Thiết kế trẻ trung, dễ phối đồ. Mang đi học, đi chơi đều hợp. Giá sale quá rẻ so với chất lượng!",
+                "content": "Đế giày bền quá, sân xi măng đánh thoải mái!",
                 "images": [],
                 "helpful": 47
             }
@@ -866,7 +866,7 @@
     },
 
     {
-        "id": "FZ2161-002",
+        "id": "FZ2161-003",
         "name": "Nike Court Air Zoom Vapor Pro 3 HC Amethyst Tint",
         "brand": "NIKE",
         "category": "Giày Pickleball",
@@ -1055,7 +1055,7 @@
     },
 
     {
-        "id": "FZ2158-100",
+        "id": "FZ2158-110",
         "name": "Nike Zoom Vapor Pro 3 Ashen Slate",
         "brand": "NIKE",
         "category": "Giày Pickleball",
