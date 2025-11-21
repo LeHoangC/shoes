@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react'
-import { Search, MapPin, ChevronDown, User, Phone, Home } from 'lucide-react'
+import { Search, MapPin, ChevronDown, User, Phone, Home, Loader2 } from 'lucide-react'
 import vietnamData from '../../address.json'
 import { Minus } from 'lucide-react'
 import { Plus } from 'lucide-react'
@@ -148,6 +148,7 @@ export default function AddressForm({ sizes, name }) {
     const [quantity, setQuantity] = useState(1)
     const [showSuccess, setShowSuccess] = useState(false)
     const [errors, setErrors] = useState({})
+    const [loading, setLoading] = useState(false)
 
     // Validate tên
     const validateName = (name) => {
@@ -266,20 +267,19 @@ export default function AddressForm({ sizes, name }) {
         }
 
         try {
-            const response = await fetch(
-                'https://script.google.com/macros/s/AKfycbw7W1uSaItotVttnbJCC6eXVHCG3FIqNJoJkK2cCskITKzPnLeYS7xeaqUcspkpjric/exec',
-                {
-                    method: 'POST',
-                    mode: 'no-cors',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(formData),
-                }
-            )
+            setLoading(true)
+            const response = await fetch(import.meta.env.VITE_URL_GG_SHEET, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            })
 
             // Hiển thị popup thành công
             setShowSuccess(true)
+            setLoading(false)
 
             // Tự động ẩn sau 3 giây
             setTimeout(() => {
@@ -287,6 +287,7 @@ export default function AddressForm({ sizes, name }) {
             }, 3000)
         } catch (error) {
             console.error('Lỗi:', error)
+            setLoading(false)
             alert('Có lỗi xảy ra. Vui lòng thử lại!')
         }
     }
@@ -416,8 +417,8 @@ export default function AddressForm({ sizes, name }) {
                         {/* Nút submit */}
                         <button
                             type="submit"
-                            disabled={!isFormValid}
-                            className={`w-full py-3 rounded-lg font-medium transition-all shadow-md
+                            disabled={!isFormValid || loading}
+                            className={`w-full py-3 rounded-lg font-medium transition-all shadow-md flex justify-center gap-2
                 ${
                     isFormValid
                         ? 'bg-blue-500 hover:bg-blue-600 text-white hover:shadow-lg'
@@ -425,7 +426,8 @@ export default function AddressForm({ sizes, name }) {
                 }
               `}
                         >
-                            {isFormValid ? 'Xác nhận thông tin' : 'Vui lòng điền đầy đủ thông tin'}
+                            {loading && <Loader2 className="h-6 w-6 animate-spin text-white" />}
+                            Đặt hàng
                         </button>
                     </form>
                 </div>
@@ -448,7 +450,7 @@ export default function AddressForm({ sizes, name }) {
                         </svg>
                         <div>
                             <p className="font-bold text-lg">Thành công!</p>
-                            <p className="text-sm opacity-90">Thông tin đã được gửi đi.</p>
+                            <p className="text-sm opacity-90">Đặt hàng thành công.</p>
                         </div>
                     </div>
                 </div>

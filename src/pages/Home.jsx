@@ -117,7 +117,7 @@ const Home = () => {
                             </a>
                             <a
                                 href="#"
-                                className="w-8 h-8 bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 rounded flex items-center justify-center hover:opacity-90 transition"
+                                className="w-8 h-8 bg-linear-to-br from-purple-600 via-pink-600 to-orange-500 rounded flex items-center justify-center hover:opacity-90 transition"
                             >
                                 <Instagram size={18} />
                             </a>
