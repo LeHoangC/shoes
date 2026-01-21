@@ -1,7 +1,7 @@
 import Header from '../components/Header'
 import ProductCard from '../components/ProductCard'
 import Products from '../../product.json'
-import React, { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Facebook, Instagram, ChevronDown } from 'lucide-react'
 import OrderNotification from '../components/OrderNotification '
 
@@ -11,6 +11,11 @@ const Home = () => {
     const toggleSection = (section) => {
         setActiveSection(activeSection === section ? null : section)
     }
+
+    useEffect(() => {
+        document.title = 'Nike Store - Trang Chủ'
+    }, [])
+
     return (
         <div>
             <OrderNotification />

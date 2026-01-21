@@ -39,6 +39,16 @@ export default function ProductDetail() {
         setCurrentImage((prev) => (prev - 1 + images.length) % images.length)
     }
 
+    // Update Page Title
+    useEffect(() => {
+        if (product) {
+            document.title = `${product.name} | Nike Store`
+        }
+        return () => {
+            document.title = 'Nike Store' // Reset on unmount
+        }
+    }, [product])
+
     if (!product || images.length === 0) {
         return <div>Product not found</div>
     }

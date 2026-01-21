@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { Search, MapPin, ChevronDown, User, Phone, Home, Loader2 } from 'lucide-react'
 import vietnamData from '../../address.json'
 import { Minus } from 'lucide-react'
@@ -149,6 +149,29 @@ export default function AddressForm({ sizes, name }) {
     const [showSuccess, setShowSuccess] = useState(false)
     const [errors, setErrors] = useState({})
     const [loading, setLoading] = useState(false)
+    const [honeypot, setHoneypot] = useState('')
+    const [initialLoadTime] = useState(Date.now())
+    const [turnstileToken, setTurnstileToken] = useState('')
+
+    // Render Turnstile
+    useEffect(() => {
+        const renderTurnstile = () => {
+            if (window.turnstile) {
+                // Xóa nội dung cũ để tránh bị render đúp (do React Strict Mode)
+                const container = document.getElementById('turnstile-container')
+                if (container) container.innerHTML = ''
+
+                window.turnstile.render('#turnstile-container', {
+                    sitekey: import.meta.env.VITE_TURNSTILE_SECRET, // Đảm bảo đây là SITE KEY
+                    callback: (token) => setTurnstileToken(token),
+                    'error-callback': () => setTurnstileToken(''),
+                    'expired-callback': () => setTurnstileToken(''),
+                })
+            }
+        }
+
+        renderTurnstile()
+    }, [])
 
     // Validate tên
     const validateName = (name) => {
@@ -248,6 +271,26 @@ export default function AddressForm({ sizes, name }) {
 
         if (phoneError || nameError) {
             setErrors(newErrors)
+            return
+        }
+
+        // Chống bot: Kiểm tra Honeypot
+        if (honeypot) {
+            console.warn('Bot detected: Honeypot filled')
+            return
+        }
+
+        // Chống bot: Kiểm tra thời gian submit (chặn nếu dưới 3 giây)
+        const timeElapsed = (Date.now() - initialLoadTime) / 1000
+        if (timeElapsed < 3) {
+            console.warn('Bot detected: Submission too fast')
+            alert('Thao tác quá nhanh, vui lòng thử lại sau giây lát.')
+            return
+        }
+
+        // Chống bot: Kiểm tra Turnstile
+        if (!turnstileToken) {
+            alert('Vui lòng xác nhận bạn không phải là robot!')
             return
         }
 
@@ -412,6 +455,21 @@ export default function AddressForm({ sizes, name }) {
                             >
                                 <Plus className="w-4 h-4 sm:w-5 sm:h-5" />
                             </button>
+                        </div>
+
+                        {/* Turnstile Container */}
+                        <div id="turnstile-container" className="my-4"></div>
+
+                        {/* Honeypot field - Hidden from users, only visible to bots */}
+                        <div className="hidden" aria-hidden="true">
+                            <input
+                                type="text"
+                                name="website_url"
+                                value={honeypot}
+                                onChange={(e) => setHoneypot(e.target.value)}
+                                tabIndex="-1"
+                                autoComplete="off"
+                            />
                         </div>
 
                         {/* Nút submit */}
