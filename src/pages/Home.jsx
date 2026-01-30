@@ -28,9 +28,9 @@ const Home = () => {
             </div>
 
             <div className="text-center py-5">
-                <h2 className="text-lg font-bold tracking-[0.15em] mb-4 uppercase animate-pulse">CÁC DÒNG SẢN PHẨM</h2>
+                {/* <h2 className="text-lg font-bold tracking-[0.15em] mb-4 uppercase animate-pulse">CÁC DÒNG SẢN PHẨM</h2> */}
 
-                <div className="flex justify-center items-center gap-4 border-t-2 border-b-2 border-black py-3 mb-4">
+                {/* <div className="flex justify-center items-center gap-4 border-t-2 border-b-2 border-black py-3 mb-4">
                     <a
                         href="#sport"
                         className="text-base font-bold uppercase tracking-wider underline hover:opacity-70 animate-scale"
@@ -44,7 +44,7 @@ const Home = () => {
                     >
                         Giày Pickleball
                     </a>
-                </div>
+                </div> */}
 
                 <style jsx>{`
                     @keyframes scale {
@@ -68,7 +68,7 @@ const Home = () => {
                     <ProductCard product={pro} key={pro.id} />
                 ))}
             </div>
-            <h3 className="max-w-7xl mx-auto text-center text-3xl py-4 border-t-2 border-b-2">Giày Pickleball</h3>
+            {/* <h3 className="max-w-7xl mx-auto text-center text-3xl py-4 border-t-2 border-b-2">Giày Pickleball</h3> */}
             <div className="max-w-7xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-4 my-4" id="pickleball">
                 {Products.filter((item) => item.category === 'Giày Pickleball').map((pro) => (
                     <ProductCard product={pro} key={pro.id} />
